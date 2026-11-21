@@ -43,25 +43,26 @@ function write(route, html) {
   writeFileSync(file, html)
 }
 
+// Uzbek, the site's default language — these texts show in link previews and before the app loads.
 const home = {
-  title: 'The Aroma Lab — оригинальная парфюмерия в распив | Ташкент',
-  description: 'Оригинальные ароматы мировых парфюмерных домов в распив по 10 мл. Доставка по Ташкенту и всему Узбекистану.',
+  title: 'The Aroma Lab — original atirlar quyma holda | Toshkent',
+  description: 'Dunyo parfyumeriya uylarining original atirlari 10 ml quyma holda. Toshkent va butun Oʻzbekiston boʻylab yetkazib berish.',
   image: '/logo.webp',
 }
 
 writeFileSync(join(dist, 'index.html'), page(home))
 writeFileSync(join(dist, '404.html'), page(home))
-write('catalog', page({ ...home, title: 'Каталог ароматов | The Aroma Lab' }))
-write('checkout', page({ ...home, title: 'Оформление заказа | The Aroma Lab' }))
-write('order', page({ ...home, title: 'Заказ оформлен | The Aroma Lab' }))
+write('catalog', page({ ...home, title: 'Atirlar katalogi | The Aroma Lab' }))
+write('checkout', page({ ...home, title: 'Buyurtmani rasmiylashtirish | The Aroma Lab' }))
+write('order', page({ ...home, title: 'Buyurtma qabul qilindi | The Aroma Lab' }))
 
 for (const p of products) {
   const price = fmt(toUzs(Math.min(...p.volumes.map((v) => v.priceUsd))))
   write(
     join('perfume', p.id),
     page({
-      title: `${p.brand} ${p.name} — распив 10 мл | The Aroma Lab`,
-      description: `${descriptions[p.id]?.ru ? descriptions[p.id].ru + ' ' : ''}Распив 10 мл — ${price} сум. Доставка по Ташкенту и Узбекистану.`,
+      title: `${p.brand} ${p.name} — quyma atir | The Aroma Lab`,
+      description: `${descriptions[p.id]?.uz ? descriptions[p.id].uz + ' ' : ''}Quyma 10 ml — ${price} soʻm. Toshkent va Oʻzbekiston boʻylab yetkazib berish.`,
       image: p.image,
     }),
   )
