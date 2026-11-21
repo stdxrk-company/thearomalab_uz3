@@ -1,68 +1,45 @@
 /*
- * The Aroma Lab — "Liquid Glass" design tokens.
- * Ivory ground with soft burgundy / amber light, ink text, translucent glass panels.
- * Glass needs something behind it: photos, or the ambient light painted on body::before.
+ * The Aroma Lab — "Noir" design tokens.
+ * White ground, black type and blocks, light grey behind bottle photos.
+ * Square corners, thin black rules, wide-tracked capitals for labels and buttons.
  */
 :root {
-  --bg: #f3f1ec;
-  --surface: #faf9f6;
-  --mat: #e6e2da;
-  --inverse: #1a1a18;
-  --inverse-text: #f3f1ec;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --mat: #f4f4f2;
+  --inverse: #0a0a0a;
+  --inverse-text: #ffffff;
 
-  --text: #1a1a18;
-  --text-2: #4f4a44;
-  --text-3: #6d675f;
+  --text: #0a0a0a;
+  --text-2: #5f5f5f;
+  --text-3: #6b6b6b;
+  --text-inv-2: #a3a3a3;
 
-  --accent: #7a2630; /* burgundy: «Новинка», free delivery, focus */
-  --accent-hover: #5f1c25;
-  --gold: #e2c17e; /* only on the dark gold-dust surfaces */
+  --accent: #0a0a0a;
+  --accent-hover: #333333;
 
-  --line: rgba(26, 26, 24, 0.1);
-  --line-strong: rgba(26, 26, 24, 0.22);
-  --success: #3f6b3a;
-  --danger: #a53e2a;
+  --line: #e4e4e1;
+  --line-strong: #0a0a0a;
+  --line-dark: #2a2a2a;
+  --success: #2f6b3a;
+  --danger: #b3261e;
 
   --font-sans: 'Inter Tight', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-serif: 'Noto Serif Display', Georgia, serif;
-  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
 
-  --glass: rgba(255, 255, 255, 0.4);
-  --glass-strong: rgba(255, 255, 255, 0.55);
-  --glass-blur: 18px;
-
-  --r-xl: 32px;
-  --r-lg: 28px;
-  --r-md: 24px;
-  --r-sm: 18px;
-  --r-pill: 999px;
-
+  --track: 0.16em;
   --gutter: 16px;
-  --shell: 1344px;
-  --header-h: 76px;
+  --shell: 1440px;
+  --header-h: 64px;
+  --ann-h: 34px;
   --tabbar-h: 0px;
 
-  --shadow-pop: 0 24px 60px -20px rgba(40, 12, 16, 0.35);
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
 @media (min-width: 768px) {
   :root {
-    --gutter: 48px;
-    --header-h: 92px;
-  }
-}
-
-@media (max-width: 767px) {
-  :root {
-    --glass-blur: 12px;
-  }
-}
-
-/* below 1100px the sections live in the bottom tab bar */
-@media (max-width: 1099px) {
-  :root {
-    --tabbar-h: 84px;
+    --gutter: 40px;
+    --header-h: 76px;
   }
 }
 
@@ -82,24 +59,10 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font-sans);
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-}
-
-/* ambient light the glass picks up; fixed so it stays put while content scrolls */
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background:
-    radial-gradient(900px 620px at 88% -6%, rgba(122, 38, 48, 0.24) 0%, rgba(122, 38, 48, 0) 70%),
-    radial-gradient(760px 540px at -4% 28%, rgba(176, 110, 62, 0.15) 0%, rgba(176, 110, 62, 0) 70%),
-    radial-gradient(900px 640px at 64% 104%, rgba(90, 24, 32, 0.13) 0%, rgba(90, 24, 32, 0) 70%),
-    var(--bg);
 }
 
 img {
@@ -125,19 +88,21 @@ button {
   background: none;
   border: 0;
   padding: 0;
+  border-radius: 0;
 }
 
 :focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--text);
   outline-offset: 3px;
 }
 
 h1,
 h2,
 h3 {
-  font-weight: 500;
-  line-height: 1.08;
-  letter-spacing: -0.025em;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   margin: 0;
   text-wrap: balance;
 }
@@ -154,109 +119,86 @@ p {
   padding: 0 var(--gutter);
 }
 
-/* ---------- Liquid glass ---------- */
-.glass {
-  position: relative;
-  isolation: isolate;
-  background: var(--glass);
-  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
-  backdrop-filter: blur(var(--glass-blur)) saturate(180%);
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.85),
-    inset 0 -1px 1px rgba(255, 255, 255, 0.25),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.4),
-    inset 0 -12px 24px -12px rgba(255, 255, 255, 0.35),
-    0 12px 32px -10px rgba(40, 12, 16, 0.22);
-}
-
-.glass::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  pointer-events: none;
-  z-index: -1;
-  background:
-    radial-gradient(120% 90% at 18% 0%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 46%),
-    radial-gradient(80% 60% at 92% 100%, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0) 55%);
-}
-
+/* The Liquid Glass helpers stay as class names but are neutral in Noir:
+   the look of each panel lives in its own module. */
+.glass,
 .glass-strong {
-  background: var(--glass-strong);
+  position: relative;
 }
 
 .glass-dark {
   position: relative;
-  isolation: isolate;
   color: var(--inverse-text);
-  background: rgba(255, 255, 255, 0.07);
-  -webkit-backdrop-filter: blur(20px) saturate(160%);
-  backdrop-filter: blur(20px) saturate(160%);
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.4),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.14),
-    inset 0 -14px 28px -14px rgba(242, 205, 120, 0.18),
-    0 24px 48px -16px rgba(0, 0, 0, 0.7);
-}
-
-.glass-dark::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  pointer-events: none;
-  z-index: -1;
-  background: radial-gradient(120% 90% at 15% 0%, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 45%);
-}
-
-/* browsers without backdrop-filter get a solid, readable panel instead */
-@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
-  .glass {
-    background: rgba(250, 249, 246, 0.94);
-  }
-  .glass-dark {
-    background: rgba(26, 26, 24, 0.9);
-  }
+  border: 1px solid var(--line-dark);
 }
 
 .gold-dust {
-  background: #0e0d0c url('/images/gold-dust.webp') center / cover no-repeat;
-}
-
-@media (max-width: 767px) {
-  .gold-dust {
-    background-image: url('/images/gold-dust-sm.webp');
-  }
+  background: var(--inverse);
+  color: var(--inverse-text);
 }
 
 /* ---------- Type helpers ---------- */
+.cap {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: var(--track);
+  text-transform: uppercase;
+}
+
 .eyebrow {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--accent);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: var(--track);
+  text-transform: uppercase;
 }
 
 .brand-label {
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.09em;
+  letter-spacing: var(--track);
   text-transform: uppercase;
 }
 
+/* product names: plain, quiet sans in Noir */
 .serif-name {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-weight: 400;
-  letter-spacing: -0.005em;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.01em;
 }
 
 .mono {
-  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: var(--track);
+  text-transform: uppercase;
 }
 
 .price {
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+}
+
+.link-line {
+  position: relative;
+  display: inline-block;
+}
+
+.link-line::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s var(--ease);
+}
+
+.link-line:hover::after,
+.link-line.is-on::after {
+  transform: scaleX(1);
 }
 
 /* ---------- Buttons ---------- */
@@ -266,66 +208,70 @@ p {
   justify-content: center;
   gap: 10px;
   min-height: 52px;
-  padding: 0 28px;
-  border-radius: var(--r-pill);
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 0.005em;
+  padding: 0 30px;
+  border: 1px solid var(--inverse);
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: var(--track);
+  text-transform: uppercase;
   white-space: nowrap;
   transition:
-    background-color 0.2s var(--ease),
-    color 0.2s var(--ease),
-    transform 0.2s var(--ease),
-    box-shadow 0.2s var(--ease);
-}
-
-.btn:active {
-  transform: scale(0.98);
+    background-color 0.25s var(--ease),
+    color 0.25s var(--ease),
+    border-color 0.25s var(--ease);
 }
 
 .btn-primary {
   background: var(--inverse);
   color: var(--inverse-text);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.18),
-    0 10px 24px -10px rgba(26, 26, 24, 0.6);
 }
 
 .btn-primary:hover {
-  background: #33302c;
+  background: var(--bg);
+  color: var(--text);
 }
 
 .btn-primary:disabled,
 .btn-primary[aria-disabled='true'] {
-  background: #b8b1a6;
-  box-shadow: none;
+  background: #c9c9c6;
+  border-color: #c9c9c6;
+  color: #fff;
   cursor: not-allowed;
 }
 
-/* secondary buttons are glass */
 .btn-secondary {
-  position: relative;
-  isolation: isolate;
-  background: var(--glass);
-  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
-  backdrop-filter: blur(var(--glass-blur)) saturate(180%);
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.85),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.45),
-    0 10px 26px -12px rgba(40, 12, 16, 0.25);
+  background: transparent;
+  color: var(--text);
 }
 
 .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.62);
+  background: var(--inverse);
+  color: var(--inverse-text);
 }
 
+/* white button for black sections */
 .btn-light {
-  background: var(--inverse-text);
+  border-color: #fff;
+  background: #fff;
   color: var(--inverse);
 }
 
 .btn-light:hover {
+  background: transparent;
+  color: #fff;
+}
+
+/* outline button for black sections */
+.btn-ghost {
+  border-color: #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.btn-ghost:hover {
   background: #fff;
+  color: var(--inverse);
 }
 
 .btn-block {
@@ -338,89 +284,66 @@ p {
   justify-content: center;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
   flex-shrink: 0;
 }
 
-.round-add {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  background: var(--inverse);
-  color: var(--inverse-text);
-  transition:
-    background-color 0.2s var(--ease),
-    transform 0.2s var(--ease);
-}
-
-.round-add:hover {
-  background: #33302c;
-}
-
-.round-add:active {
-  transform: scale(0.94);
-}
-
-.round-add.is-added {
-  background: var(--accent);
-}
-
-/* ---------- Form fields ---------- */
+/* ---------- Form fields: underlined ---------- */
 .field {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: var(--track);
+  text-transform: uppercase;
 }
 
 .field-hint {
   font-weight: 400;
-  color: var(--text-2);
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--text-3);
 }
 
 .input {
   width: 100%;
-  min-height: 52px;
-  padding: 0 18px;
+  min-height: 48px;
+  padding: 0 2px;
   border: 0;
-  border-radius: 16px;
-  background: var(--glass-strong);
-  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
-  backdrop-filter: blur(var(--glass-blur)) saturate(180%);
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.85),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.45),
-    0 6px 18px -10px rgba(40, 12, 16, 0.2);
+  border-bottom: 1px solid var(--line-strong);
+  border-radius: 0;
+  background: transparent;
   font-size: 16px;
   font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
   color: var(--text);
 }
 
+select.input {
+  padding-right: 24px;
+}
+
 textarea.input {
-  padding: 14px 18px;
+  padding: 12px 2px;
   resize: vertical;
-  min-height: 96px;
+  min-height: 90px;
 }
 
 .input:focus-visible {
-  outline: 2px solid var(--text);
-  outline-offset: 2px;
+  outline: none;
+  border-bottom-width: 2px;
 }
 
 .input[aria-invalid='true'] {
-  box-shadow:
-    inset 0 0 0 1.5px var(--danger),
-    0 6px 18px -10px rgba(40, 12, 16, 0.2);
+  border-bottom-color: var(--danger);
 }
 
 .field-error {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
   color: var(--danger);
 }
 

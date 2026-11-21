@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from 'react'
 import { LANGS, useI18n } from '../i18n'
 import s from './LangSwitch.module.css'
 
-/** RU / UZ / EN: a small glass button in the header that opens a list of languages. */
-export function LangSwitch() {
+/** RU / UZ / EN: a small square button that opens a list of languages. */
+export function LangSwitch({ up = false }: { up?: boolean }) {
   const { lang, setLang, t } = useI18n()
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
@@ -27,7 +27,7 @@ export function LangSwitch() {
     <div ref={ref} className={s.wrap}>
       <button
         type="button"
-        className={`glass ${s.btn}`}
+        className={s.btn}
         onClick={() => setOpen((v) => !v)}
         aria-haspopup="true"
         aria-expanded={open}
@@ -36,7 +36,7 @@ export function LangSwitch() {
         {current.short}
       </button>
       {open && (
-        <ul className={`glass ${s.menu}`} aria-label={t.nav.language}>
+        <ul className={`${s.menu} ${up ? s.up : ''}`} aria-label={t.nav.language}>
           {LANGS.map((l) => (
             <li key={l.code}>
               <button

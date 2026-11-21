@@ -31,6 +31,10 @@ export const en: Dict = {
     searchPlaceholder: 'Fragrance, brand or note',
     cartAria: (n: number) => `Cart, bottles: ${n}`,
     language: 'Language',
+    menu: 'Menu',
+    closeMenu: 'Close menu',
+    announce: (n: number) => `Free delivery in Tashkent from ${n} bottles · Original perfume, decanted`,
+    announceShort: (n: number) => `Free delivery from ${n} bottles`,
   },
 
   footer: {
@@ -110,6 +114,12 @@ export const en: Dict = {
     addMore: 'Add more',
     buildSet: 'Build a set',
     hitsTitle: 'Most ordered',
+    bestTitle: 'Best sellers',
+    newMain: 'New arrivals: the highlights',
+    seeAll: 'See all',
+    details: 'Details',
+    brandsTitle: (n: number) => `${n} perfume houses`,
+    allBrands: 'All brands',
     howTitle: 'How to order',
     siteH: 'Order on the site',
     siteP: 'Fill your cart and check out: name, phone, address. No need to chat back and forth.',

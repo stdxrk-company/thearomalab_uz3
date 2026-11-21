@@ -126,3 +126,9 @@ export const SlidersIcon = (p: P) => (
     <circle cx="10" cy="17" r="2" />
   </svg>
 )
+
+export const MenuIcon = (p: P) => (
+  <svg {...base} {...p}>
+    <path d="M4 8h16M4 16h16" />
+  </svg>
+)

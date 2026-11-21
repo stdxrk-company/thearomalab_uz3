@@ -27,23 +27,28 @@ export const DELIVERY = {
  * Change these lists to rotate the hero, new arrivals and best sellers.
  */
 export const MERCH = {
-  /** Big photo on the first screen. */
-  heroId: 'maison-francis-kurkdjian-baccarat-rouge-540',
-  /** Hero texts in every interface language. */
+  /** First screen: label, big title and one line under it, in every interface language. */
   heroLabel: {
-    ru: 'Новые поступления · ноябрь',
-    uz: 'Yangi kelganlar · noyabr',
-    en: 'New arrivals · November',
+    ru: 'Новый сезон · ноябрь 2026',
+    uz: 'Yangi mavsum · noyabr 2026',
+    en: 'New season · November 2026',
   } satisfies Localized,
   heroTitle: {
-    ru: 'Шесть новых ароматов: от Louis Vuitton до Kilian',
-    uz: 'Oltita yangi atir: Louis Vuittondan Kiliangacha',
-    en: 'Six new fragrances, from Louis Vuitton to Kilian',
+    ru: 'Искусство аромата',
+    uz: 'Atir sanʼati',
+    en: 'The art of scent',
   } satisfies Localized,
   heroText: {
-    ru: 'Каждый можно взять флаконом 10 мл и носить пару недель, прежде чем покупать большой.',
-    uz: 'Har birini 10 ml flakonda olib, katta flakon sotib olishdan oldin bir-ikki hafta ishlatib koʻrishingiz mumkin.',
-    en: 'Take any of them in a 10 ml bottle and wear it for a couple of weeks before buying a full size.',
+    ru: 'Оригинальная парфюмерия мировых домов во флаконах по 10 мл',
+    uz: 'Dunyo parfyumeriya uylarining original atirlari 10 ml flakonlarda',
+    en: 'Original perfume from the great houses, in 10 ml bottles',
+  } satisfies Localized,
+  /** The big black feature block on the homepage. */
+  featureId: 'maison-francis-kurkdjian-baccarat-rouge-540',
+  featureText: {
+    ru: 'Шафран, жасмин, амбра и кедр. Попробуйте его во флаконе 10 мл, прежде чем решиться на большой.',
+    uz: 'Zaʼfaron, yasmin, ambra va kedr. Katta flakonga qaror qilishdan oldin uni 10 ml flakonda sinab koʻring.',
+    en: 'Saffron, jasmine, amber and cedar. Try it in a 10 ml bottle before you commit to a full size.',
   } satisfies Localized,
   /** Marked «Новинка» on cards and shown in the «Новинки» row. */
   newIds: [

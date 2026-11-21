@@ -1,12 +1,7 @@
 .stepper {
   display: inline-flex;
   align-items: center;
-  border-radius: var(--r-pill);
-  background: rgba(255, 255, 255, 0.55);
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.85),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.45),
-    0 6px 16px -10px rgba(40, 12, 16, 0.25);
+  border: 1px solid var(--inverse);
   flex-shrink: 0;
 }
 
@@ -14,46 +9,41 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
   color: var(--text);
   transition: background-color 0.2s var(--ease);
 }
 
 .stepper button:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.7);
+  background: var(--mat);
 }
 
 .stepper button:disabled {
-  opacity: 0.35;
+  opacity: 0.3;
   cursor: not-allowed;
 }
 
 .stepper output {
-  min-width: 26px;
+  min-width: 24px;
   text-align: center;
+  font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
 
 .md {
-  padding: 4px;
-  min-height: 56px;
+  min-height: 52px;
 }
 
 .md button {
   width: 46px;
-  height: 46px;
-}
-
-.sm {
-  padding: 2px;
+  height: 52px;
 }
 
 .sm button {
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 32px;
 }
 
 .sm output {
-  min-width: 20px;
-  font-size: 14px;
+  min-width: 18px;
+  font-size: 13px;
 }

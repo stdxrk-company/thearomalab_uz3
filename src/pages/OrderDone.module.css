@@ -1,70 +1,65 @@
-/* a large rounded gold-dust card under the floating header */
+/* black page: order number, thanks, next steps, what's in the order */
 .page {
-  margin: 14px 10px 0;
-  padding: 14px 0;
-  border-radius: 32px;
-  overflow: hidden;
+  background: var(--inverse);
   color: var(--inverse-text);
-}
-
-.page :global(.shell) {
-  padding: 0 4px;
+  padding: 40px 0 56px;
 }
 
 .inner {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 32px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
-  padding: 28px 22px;
-  border-radius: var(--r-xl);
+  gap: 18px;
+  border: 0 !important;
 }
 
 .no {
-  font-size: 13px;
-  color: var(--gold);
+  font-size: 11px;
+  color: var(--text-inv-2);
 }
 
 .h1 {
-  font-size: clamp(32px, 7vw, 52px);
-  letter-spacing: -0.03em;
+  font-size: clamp(30px, 7.4vw, 60px);
+  line-height: 0.98;
+  letter-spacing: 0.02em;
 }
 
 .text {
-  font-size: 17px;
-  color: #cfc8bd;
+  font-size: 15px;
+  color: var(--text-inv-2);
   max-width: 560px;
 }
 
 .steps {
   list-style: none;
-  margin: 4px 0 0;
+  margin: 6px 0 0;
   padding: 0;
   width: 100%;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  max-width: 620px;
+  border-top: 1px solid var(--line-dark);
 }
 
 .steps li {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  padding: 14px 16px;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.06);
-  color: #cfc8bd;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line-dark);
+  color: var(--text-inv-2);
+  font-size: 14px;
 }
 
 .stepName {
+  font-size: 11px;
   font-weight: 600;
+  letter-spacing: var(--track);
+  text-transform: uppercase;
   color: var(--inverse-text);
 }
 
@@ -76,78 +71,71 @@
 }
 
 .ghost {
-  color: var(--inverse-text);
+  border-color: #fff !important;
+  background: transparent;
+  color: #fff;
+}
+
+.ghost:hover {
+  background: #fff;
+  color: var(--inverse);
 }
 
 .side {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding: 22px;
-  border-radius: var(--r-xl);
+  gap: 14px;
+  padding: 20px;
 }
 
 .thumbs {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 8px;
+  gap: 6px;
 }
 
 .thumbs img {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
-  border-radius: 16px;
 }
 
 .side strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .muted {
-  font-size: 14px;
-  color: #cfc8bd;
+  font-size: 13px;
+  color: var(--text-inv-2);
 }
 
 @media (min-width: 768px) {
-  .page {
-    margin: 20px var(--gutter) 0;
-  }
   .steps li {
     flex-direction: row;
-    gap: 16px;
+    gap: 20px;
   }
   .stepName {
-    width: 140px;
+    width: 160px;
     flex-shrink: 0;
   }
 }
 
 @media (min-width: 1100px) {
   .page {
-    max-width: var(--shell);
-    margin: 24px auto 0;
-    padding: 72px 0;
-    border-radius: 40px;
-  }
-  .page :global(.shell) {
-    padding: 0 48px;
+    padding: 96px 0 120px;
   }
   .inner {
     flex-direction: row;
-    align-items: stretch;
-    gap: 24px;
-    max-width: calc(1184px + 2 * var(--gutter));
+    align-items: center;
+    gap: 72px;
+    max-width: calc(1140px + 2 * var(--gutter));
   }
   .card {
     flex: 1 1 auto;
-    padding: 44px;
-    border-radius: 36px;
   }
   .side {
     flex: 0 0 360px;
     padding: 28px;
-    border-radius: 36px;
   }
   .thumbs {
     grid-template-columns: repeat(2, minmax(0, 1fr));

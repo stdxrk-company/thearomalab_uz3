@@ -10,7 +10,7 @@ export { DICTS }
 
 const STORAGE_KEY = 'aromalab.lang'
 
-/** Saved choice first, then ?lang= in the URL, then the browser language; Russian otherwise. */
+/** ?lang= in the URL first, then the saved choice; Russian otherwise. */
 function initialLang(): Lang {
   try {
     const fromUrl = new URLSearchParams(window.location.search).get('lang')
@@ -19,12 +19,6 @@ function initialLang(): Lang {
     if (isLang(saved)) return saved
   } catch {
     /* storage unavailable */
-  }
-  for (const l of navigator.languages ?? [navigator.language]) {
-    const code = l.slice(0, 2).toLowerCase()
-    if (code === 'uz') return 'uz'
-    if (code === 'ru') return 'ru'
-    if (code === 'en') return 'en'
   }
   return DEFAULT_LANG
 }

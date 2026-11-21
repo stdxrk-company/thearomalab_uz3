@@ -32,6 +32,10 @@ export const uz: Dict = {
     searchPlaceholder: 'Atir, brend yoki nota',
     cartAria: (n: number) => `Savat, flakonlar: ${n}`,
     language: 'Til',
+    menu: 'Menyu',
+    closeMenu: 'Menyuni yopish',
+    announce: (n: number) => `Toshkent boʻylab ${n} ta flakondan bepul yetkazib berish · Original atirlar quyma shaklda`,
+    announceShort: (n: number) => `${n} ta flakondan bepul yetkazib berish`,
   },
 
   footer: {
@@ -111,6 +115,12 @@ export const uz: Dict = {
     addMore: 'Yana qoʻshish',
     buildSet: 'Toʻplam yigʻish',
     hitsTitle: 'Eng koʻp buyurtma qilinadi',
+    bestTitle: 'Bestsellerlar',
+    newMain: 'Yangi kelganlarning eng saralari',
+    seeAll: 'Hammasini koʻrish',
+    details: 'Batafsil',
+    brandsTitle: (n: number) => `${n} ta parfyumeriya uyi`,
+    allBrands: 'Barcha brendlar',
     howTitle: 'Qanday buyurtma berish',
     siteH: 'Saytda buyurtma',
     siteP: 'Savatni toʻldiring va buyurtma bering: ism, telefon, manzil. Yozishib oʻtirish shart emas.',
