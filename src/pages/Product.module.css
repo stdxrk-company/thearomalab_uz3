@@ -35,20 +35,12 @@
   background: var(--mat);
 }
 
-.media img {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-}
-
-/* phones and tablets: the whole photo in its own proportions, nothing cropped.
+/* the whole photo in its own proportions, nothing cropped — the supplier prints the notes on some photos.
    height: auto overrides the height="1200" attribute, which made the photo 1200px tall on iPhone */
-@media (max-width: 959px) {
-  .media img {
-    display: block;
-    height: auto;
-    aspect-ratio: auto;
-  }
+.media img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* tablets: keep the uncropped photo from growing taller than the screen */
@@ -58,6 +50,12 @@
     max-width: 520px;
     justify-self: center;
   }
+}
+
+.desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-2);
 }
 
 .panel {
@@ -387,8 +385,16 @@
     grid-template-columns: minmax(0, 1.35fr) minmax(360px, 1fr);
     gap: 56px;
   }
+  /* desktop: the whole photo fits the screen, centred in its column */
+  .media {
+    display: flex;
+    justify-content: center;
+    background: none;
+  }
   .media img {
-    max-height: calc(100vh - 150px);
+    width: auto;
+    max-width: 100%;
+    max-height: calc(100vh - var(--header-h) - var(--ann-h) - 48px);
   }
   .panel {
     position: sticky;

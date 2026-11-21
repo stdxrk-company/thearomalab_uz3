@@ -12,6 +12,7 @@ import {
   isNew,
   minPrice,
   NOTE_TIERS,
+  productDescription,
   products,
   similarByNotes,
   volumePrice,
@@ -65,6 +66,7 @@ export function ProductPage() {
           ).slice(0, 8),
         }
   const tiers = NOTE_TIERS.filter((k) => product.notes?.[k]?.length)
+  const description = productDescription(product, lang)
 
   const onAdd = () => {
     cart.add(product.id, volume.ml, qty)
@@ -109,6 +111,8 @@ export function ProductPage() {
               )}
             </div>
           </div>
+
+          {description && <p className={s.desc}>{description}</p>}
 
           {tiers.length > 0 && (
             <section className={s.notes} aria-labelledby="notes-title">

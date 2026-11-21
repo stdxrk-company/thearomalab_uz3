@@ -1,0 +1,942 @@
+{
+ "bvlgari-man-rain-essence": {
+  "ru": "Свежий «дождевой» аромат: прохладные цитрусы, водяная лилия и чистый мускус. Лёгкий вариант на каждый день.",
+  "uz": "Yangi, «yomgʻirli» atir: salqin sitruslar, suv nilufari va toza mushk. Har kun uchun yengil tanlov.",
+  "en": "A fresh “rain” scent: cool citrus, water lily and clean musk. An easy everyday choice."
+ },
+ "ajmal-amber-santal": {
+  "ru": "Тёплый восточный аромат: шафран, амбра и сливочный сандал. Мягкий и уютный шлейф для вечера.",
+  "uz": "Iliq sharqona atir: zaʼfaron, ambra va qaymoqsimon sandal. Kechqurun uchun yumshoq va shinam iz.",
+  "en": "A warm oriental: saffron, amber and creamy sandalwood. A soft, cosy trail for the evening."
+ },
+ "versace-versense": {
+  "ru": "Средиземноморская свежесть: цитрусы, зелёный инжир и белые цветы на древесной базе. Светлый летний аромат.",
+  "uz": "Oʻrta yer dengizi tarovati: sitruslar, yashil anjir va oq gullar yogʻoch asosda. Yorqin yozgi atir.",
+  "en": "Mediterranean freshness: citrus, green fig and white flowers over woods. A bright summer scent."
+ },
+ "montale-rose-elixir": {
+  "ru": "Сочная роза с ягодами и иланг-илангом на мускусной базе. Яркий цветочный аромат с хорошей стойкостью.",
+  "uz": "Rezavorlar va ilang-ilang bilan shirali atirgul, mushk asosida. Uzoq saqlanadigan yorqin gulli atir.",
+  "en": "Juicy rose with berries and ylang-ylang on a musky base. A vivid floral with good staying power."
+ },
+ "hermes-terre-d-hermes-parfum": {
+  "ru": "Минеральный древесный классика: горький апельсин, перец и ветивер. Сдержанный и очень мужской.",
+  "uz": "Mineral yogʻochli klassika: achchiq apelsin, qalampir va vetiver. Vazmin va juda erkakona.",
+  "en": "A mineral woody classic: bitter orange, pepper and vetiver. Restrained and very masculine."
+ },
+ "thomas-kosmala-no-10-desir-du-coeur": {
+  "ru": "Тёплая ванильно-пряная композиция с корицей и белыми цветами. Обволакивающий, «сладкий» шлейф.",
+  "uz": "Dolchin va oq gullar bilan iliq vanil-ziravorli kompozitsiya. Oʻrab oluvchi, shirin iz.",
+  "en": "A warm vanilla-spice blend with cinnamon and white flowers. An enveloping, sweet trail."
+ },
+ "ajmal-amber-wood": {
+  "ru": "Амбра и сухие древесные ноты с кардамоном и шалфеем. Глубокий, спокойный аромат на холодный сезон.",
+  "uz": "Kardamon va marmarak bilan ambra hamda quruq yogʻoch notalari. Sovuq mavsum uchun chuqur, osuda atir.",
+  "en": "Amber and dry woods with cardamom and sage. A deep, calm scent for the cold season."
+ },
+ "mancera-red-tobacco": {
+  "ru": "Пряный табак с корицей, шафраном и яблоком на ванильно-амбровой базе. Мощный, заметный и стойкий.",
+  "uz": "Dolchin, zaʼfaron va olma bilan ziravorli tamaki, vanil-ambra asosida. Kuchli, sezilarli va uzoq saqlanadi.",
+  "en": "Spicy tobacco with cinnamon, saffron and apple over vanilla and amber. Powerful, noticeable, long-lasting."
+ },
+ "vertus-narcos-is": {
+  "ru": "Кофе, апельсин и тубероза на сладкой ванильной базе. Насыщенный вечерний аромат.",
+  "uz": "Qahva, apelsin va tuberoza shirin vanil asosida. Toʻyingan kechki atir.",
+  "en": "Coffee, orange and tuberose on a sweet vanilla base. A rich evening scent."
+ },
+ "dolce-gabbana-light-blue-pour-homme": {
+  "ru": "Цитрусы, можжевельник и розмарин с лёгким мускусом. Классика летней мужской свежести.",
+  "uz": "Sitruslar, archa va rozmarin yengil mushk bilan. Yozgi erkaklar tarovatining klassikasi.",
+  "en": "Citrus, juniper and rosemary with light musk. The classic of summer freshness for men."
+ },
+ "giorgio-armani-my-way": {
+  "ru": "Бергамот, тубероза и жасмин на ванильно-мускусной базе. Нежный, светлый и женственный.",
+  "uz": "Bergamot, tuberoza va yasmin vanil-mushk asosida. Nozik, yorqin va ayollarga xos.",
+  "en": "Bergamot, tuberose and jasmine on vanilla and musk. Soft, luminous and feminine."
+ },
+ "chanel-bleu-de-chanel-parfum": {
+  "ru": "Самая глубокая версия Bleu: цитрусы и лаванда уходят в сливочный сандал и кедр. Универсален для офиса и вечера.",
+  "uz": "Bleu ning eng chuqur versiyasi: sitrus va lavanda qaymoqsimon sandal va kedrga oʻtadi. Ofis va kechqurun uchun universal.",
+  "en": "The deepest Bleu: citrus and lavender settle into creamy sandalwood and cedar. Works for office and evening."
+ },
+ "dolce-gabbana-l-imperatrice": {
+  "ru": "Арбуз, киви и розовый перец с цикламеном. Сочный фруктовый аромат для жаркой погоды.",
+  "uz": "Tarvuz, kivi va pushti qalampir siklamen bilan. Issiq havo uchun shirali mevali atir.",
+  "en": "Watermelon, kiwi and pink pepper with cyclamen. A juicy fruity scent for hot weather."
+ },
+ "victoria-s-secret-bombshell": {
+  "ru": "Маракуйя, клубника и пион. Весёлый, яркий и очень узнаваемый фруктово-цветочный аромат.",
+  "uz": "Marakuyya, qulupnay va pion. Quvnoq, yorqin va juda tanish mevali-gulli atir.",
+  "en": "Passion fruit, strawberry and peony. A cheerful, bright and very recognisable fruity floral."
+ },
+ "yves-saint-laurent-libre": {
+  "ru": "Лаванда и цветок апельсина на тёплой ванили. Смелый, элегантный и стойкий женский аромат.",
+  "uz": "Lavanda va apelsin guli iliq vanil ustida. Dadil, nafis va uzoq saqlanadigan ayollar atiri.",
+  "en": "Lavender and orange blossom over warm vanilla. A bold, elegant and long-lasting women’s scent."
+ },
+ "giorgio-armani-acqua-di-gio-eau-de-parfum": {
+  "ru": "Морская свежесть с цитрусами, шалфеем и ветивером. Более глубокое и стойкое прочтение Acqua di Giò.",
+  "uz": "Sitrus, marmarak va vetiver bilan dengiz tarovati. Acqua di Giò ning chuqurroq va bardoshliroq talqini.",
+  "en": "Marine freshness with citrus, sage and vetiver. A deeper, longer-lasting take on Acqua di Giò."
+ },
+ "versace-eros-pour-femme": {
+  "ru": "Лимон, гранат и пион на сандалово-мускусной базе. Яркий и чувственный женский аромат.",
+  "uz": "Limon, anor va pion sandal-mushk asosida. Yorqin va hissiyotli ayollar atiri.",
+  "en": "Lemon, pomegranate and peony over sandalwood and musk. A bright, sensual women’s scent."
+ },
+ "gucci-bloom": {
+  "ru": "Букет белых цветов: тубероза, жасмин и ранункулюс. Насыщенный, «садовый» и женственный.",
+  "uz": "Oq gullar guldastasi: tuberoza, yasmin va ranunkulyus. Toʻyingan, bogʻni eslatuvchi va nafis.",
+  "en": "A bouquet of white flowers: tuberose, jasmine and ranunculus. Rich, garden-like and feminine."
+ },
+ "dior-sauvage-parfum": {
+  "ru": "Мандарин и сандал на тёплой ванили и ладане. Самый мягкий и плотный из линейки Sauvage.",
+  "uz": "Mandarin va sandal iliq vanil va ladan ustida. Sauvage qatorining eng yumshoq va quyuq versiyasi.",
+  "en": "Mandarin and sandalwood over warm vanilla and incense. The smoothest, densest Sauvage."
+ },
+ "lacoste-essential-sport": {
+  "ru": "Грейпфрут, мята и мандарин с зелёными нотами. Бодрый спортивный аромат для жары.",
+  "uz": "Greypfrut, yalpiz va mandarin yashil notalar bilan. Issiq kun uchun tetik sport atiri.",
+  "en": "Grapefruit, mint and mandarin with green notes. An energising sporty scent for the heat."
+ },
+ "dolce-gabbana-light-blue": {
+  "ru": "Сицилийский лимон, яблоко и жасмин на кедре. Лёгкая летняя классика, которая подходит всем.",
+  "uz": "Sitsiliya limoni, olma va yasmin kedr ustida. Hammaga mos yengil yozgi klassika.",
+  "en": "Sicilian lemon, apple and jasmine over cedar. An easy summer classic that suits everyone."
+ },
+ "versace-bright-crystal": {
+  "ru": "Юдзу, гранат, пион и магнолия. Прозрачный, свежий и нежный цветочный аромат.",
+  "uz": "Yuzu, anor, pion va magnoliya. Shaffof, tarovatli va nozik gulli atir.",
+  "en": "Yuzu, pomegranate, peony and magnolia. A sheer, fresh and gentle floral."
+ },
+ "dolce-gabbana-q-by-dolce-gabbana": {
+  "ru": "Сочная вишня и цитрусы с жасмином на кедре. Яркий, смелый и игривый.",
+  "uz": "Shirali olcha va sitruslar yasmin bilan kedr ustida. Yorqin, dadil va oʻynoqi.",
+  "en": "Juicy cherry and citrus with jasmine over cedar. Bright, bold and playful."
+ },
+ "versace-eros-energy": {
+  "ru": "Красный апельсин, лимон и грейпфрут с розовым перцем. Энергичный цитрусовый Eros.",
+  "uz": "Qizil apelsin, limon va greypfrut pushti qalampir bilan. Energiyaga toʻla sitrusli Eros.",
+  "en": "Blood orange, lemon and grapefruit with pink pepper. An energetic citrus Eros."
+ },
+ "yves-saint-laurent-y-l-elixir": {
+  "ru": "Самая концентрированная версия Y: яблоко, имбирь и лаванда на тонке, амбровом дереве и пачули. Плотный вечерний аромат.",
+  "uz": "Y ning eng quyuq versiyasi: olma, zanjabil va lavanda tonka, amberwud va pachuli ustida. Quyuq kechki atir.",
+  "en": "The most concentrated Y: apple, ginger and lavender over tonka, amberwood and patchouli. A dense evening scent."
+ },
+ "versace-eros-najim": {
+  "ru": "Цитрусы и лаванда с морскими нотами на ветивере, ванили и амбре. Свежий сверху и тёплый в шлейфе.",
+  "uz": "Sitrus va lavanda dengiz notalari bilan vetiver, vanil va ambra ustida. Boshida tarovatli, izida iliq.",
+  "en": "Citrus and lavender with marine notes over vetiver, vanilla and amber. Fresh up top, warm in the trail."
+ },
+ "gritti-tutu": {
+  "ru": "Роза, пион и красные ягоды на ванили и мускусе. Нежный, «кондитерский» и очень женственный.",
+  "uz": "Atirgul, pion va qizil rezavorlar vanil va mushk ustida. Nozik, shirinlikni eslatuvchi va nafis.",
+  "en": "Rose, peony and red berries over vanilla and musk. Soft, confectionery-like and very feminine."
+ },
+ "bvlgari-aqva-pour-homme": {
+  "ru": "Мандарин, морские водоросли и минеральные ноты. Классический морской аромат с ощущением прохлады.",
+  "uz": "Mandarin, dengiz suvoʻtlari va mineral notalar. Salqinlik hissi beruvchi klassik dengiz atiri.",
+  "en": "Mandarin, seaweed and mineral notes. A classic marine scent with a cool feel."
+ },
+ "dolce-gabbana-lemon": {
+  "ru": "Солнечный лимон с жасмином и белым мускусом. Чистый и бодрящий цитрус на жаркие дни.",
+  "uz": "Yasmin va oq mushk bilan quyoshli limon. Issiq kunlar uchun toza va tetiklashtiruvchi sitrus.",
+  "en": "Sunny lemon with jasmine and white musk. A clean, uplifting citrus for hot days."
+ },
+ "escentric-molecules-escentric-04": {
+  "ru": "Минималистичный аромат на молекуле Javanol с можжевельником и грейпфрутом. Звучит по-разному на каждой коже.",
+  "uz": "Archa va greypfrut bilan Javanol molekulasiga asoslangan minimalistik atir. Har bir terida turlicha ochiladi.",
+  "en": "A minimalist scent built on Javanol with juniper and grapefruit. It smells different on every skin."
+ },
+ "dior-dior-homme-cologne": {
+  "ru": "Бергамот, грейпфрут и цветок апельсина с белым мускусом. Чистый, лёгкий, «после душа».",
+  "uz": "Bergamot, greypfrut va apelsin guli oq mushk bilan. Toza, yengil, «dushdan keyin» kabi.",
+  "en": "Bergamot, grapefruit and orange blossom with white musk. Clean, light, fresh out of the shower."
+ },
+ "arabian-oud-madawi": {
+  "ru": "Фруктово-цветочный аромат с грушей, жасмином и розой на амбре и сандале. Мягкий и сладковатый.",
+  "uz": "Nok, yasmin va atirgul bilan ambra va sandal ustidagi mevali-gulli atir. Yumshoq va biroz shirin.",
+  "en": "A fruity floral with pear, jasmine and rose over amber and sandalwood. Soft and slightly sweet."
+ },
+ "carolina-herrera-212-vip-black": {
+  "ru": "Бергамот, лаванда и пряные ноты на кедре, сандале и амбре. Тёмный, броский мужской аромат для вечеринок.",
+  "uz": "Bergamot, lavanda va ziravorli notalar kedr, sandal va ambra ustida. Bazmlar uchun qorongʻi, koʻzga tashlanadigan erkaklar atiri.",
+  "en": "Bergamot, lavender and spice over cedar, sandalwood and amber. A dark, attention-grabbing party scent for men."
+ },
+ "chanel-egoiste-platinum": {
+  "ru": "Лаванда, нероли и шалфей на кедре и ветивере. Чистая барбершоп-классика в стиле Chanel.",
+  "uz": "Lavanda, neroli va marmarak kedr va vetiver ustida. Chanel uslubidagi toza barbershop klassikasi.",
+  "en": "Lavender, neroli and sage over cedar and vetiver. A clean barbershop classic in Chanel style."
+ },
+ "montale-arabians-tonka": {
+  "ru": "Сладкие бобы тонка, уд и шафран. Плотный восточный аромат с огромным шлейфом.",
+  "uz": "Shirin tonka loviyasi, ud va zaʼfaron. Katta izga ega quyuq sharqona atir.",
+  "en": "Sweet tonka bean, oud and saffron. A dense oriental with a huge trail."
+ },
+ "yves-saint-laurent-y-eau-de-parfum": {
+  "ru": "Яблоко, имбирь и шалфей на амбровом дереве. Современный свежий аромат на каждый день.",
+  "uz": "Olma, zanjabil va marmarak amberwud ustida. Har kun uchun zamonaviy tarovatli atir.",
+  "en": "Apple, ginger and sage over amberwood. A modern fresh scent for every day."
+ },
+ "atelier-rebul-istanbul": {
+  "ru": "Специи, ваниль и дерево: корица, гвоздика и шафран. Тёплый аромат, вдохновлённый базарами Стамбула.",
+  "uz": "Ziravorlar, vanil va yogʻoch: dolchin, qalampirmunchoq va zaʼfaron. Istanbul bozorlaridan ilhomlangan iliq atir.",
+  "en": "Spice, vanilla and wood: cinnamon, clove and saffron. A warm scent inspired by Istanbul’s bazaars."
+ },
+ "parfums-de-marly-carlisle": {
+  "ru": "Зелёное яблоко, мускатный орех и роза на ванили и тонке. Богатый и сладковатый вечерний аромат.",
+  "uz": "Yashil olma, muskat yongʻogʻi va atirgul vanil va tonka ustida. Boy va biroz shirin kechki atir.",
+  "en": "Green apple, nutmeg and rose over vanilla and tonka. A rich, slightly sweet evening scent."
+ },
+ "nishane-wulong-cha": {
+  "ru": "Чай улун с бергамотом, мандарином и инжиром. Светлый, чистый и спокойный аромат.",
+  "uz": "Bergamot, mandarin va anjir bilan ulun choyi. Yorqin, toza va osuda atir.",
+  "en": "Oolong tea with bergamot, mandarin and fig. A bright, clean and calm scent."
+ },
+ "chanel-n5-eau-de-parfum": {
+  "ru": "Легендарные альдегиды, жасмин и роза на сандале и ванили. Вечная классика женской парфюмерии.",
+  "uz": "Afsonaviy aldegidlar, yasmin va atirgul sandal va vanil ustida. Ayollar parfyumeriyasining abadiy klassikasi.",
+  "en": "The legendary aldehydes, jasmine and rose over sandalwood and vanilla. The eternal women’s classic."
+ },
+ "parfums-de-marly-layton": {
+  "ru": "Яблоко и лаванда уходят в ванильно-пряную базу. Один из самых популярных нишевых мужских ароматов.",
+  "uz": "Olma va lavanda vanil-ziravorli asosga oʻtadi. Eng mashhur nisha erkaklar atirlaridan biri.",
+  "en": "Apple and lavender drift into a vanilla-spice base. One of the most popular niche scents for men."
+ },
+ "parfums-de-marly-sedley": {
+  "ru": "Мята, грейпфрут и лаванда на древесной базе. Очень свежий, «зелёный» аромат на лето.",
+  "uz": "Yalpiz, greypfrut va lavanda yogʻoch asosida. Yoz uchun juda tarovatli, yashil atir.",
+  "en": "Mint, grapefruit and lavender over woods. A very fresh, green summer scent."
+ },
+ "nishane-hacivat": {
+  "ru": "Ананас и грейпфрут на пачули и дубовом мхе. Свежий фруктовый шипр, который часто сравнивают с Aventus.",
+  "uz": "Ananas va greypfrut pachuli va eman moxi ustida. Koʻpincha Aventus bilan qiyoslanadigan tarovatli mevali shipr.",
+  "en": "Pineapple and grapefruit over patchouli and oakmoss. A fresh fruity chypre often compared to Aventus."
+ },
+ "chanel-chance": {
+  "ru": "Розовый перец, жасмин и пачули. Игривый и узнаваемый цветочный шипр.",
+  "uz": "Pushti qalampir, yasmin va pachuli. Oʻynoqi va tanish gulli shipr.",
+  "en": "Pink pepper, jasmine and patchouli. A playful, recognisable floral chypre."
+ },
+ "chanel-sycomore": {
+  "ru": "Ветивер, кипарис и лёгкий дымок. Сухой, благородный древесный аромат из коллекции Les Exclusifs.",
+  "uz": "Vetiver, sarv va yengil tutun. Les Exclusifs kolleksiyasidan quruq, olijanob yogʻochli atir.",
+  "en": "Vetiver, cypress and a hint of smoke. A dry, noble woody scent from Les Exclusifs."
+ },
+ "chanel-chance-eau-tendre": {
+  "ru": "Грейпфрут, айва и жасмин на мягком мускусе. Самый нежный и лёгкий Chance.",
+  "uz": "Greypfrut, behi va yasmin yumshoq mushk ustida. Eng nozik va yengil Chance.",
+  "en": "Grapefruit, quince and jasmine over soft musk. The gentlest, lightest Chance."
+ },
+ "chanel-chance-eau-fraiche": {
+  "ru": "Лимон, жасмин и тиковое дерево. Свежий, зелёный и бодрый Chance для тёплых дней.",
+  "uz": "Limon, yasmin va tik daraxti. Iliq kunlar uchun tarovatli, yashil va tetik Chance.",
+  "en": "Lemon, jasmine and teak. A fresh, green and lively Chance for warm days."
+ },
+ "escentric-molecules-molecule-02": {
+  "ru": "Чистый амброксан — тёплый, кожный и едва уловимый. Аромат «как своя кожа, только лучше», каждому звучит по-своему.",
+  "uz": "Sof ambroksan — iliq, teriga yaqin va zoʻrgʻa sezilarli. «Oʻz teringiz kabi, faqat yaxshiroq» atir, har kimda oʻzgacha.",
+  "en": "Pure Ambroxan — warm, skin-like and barely there. It smells like your skin, only better, and differs on everyone."
+ },
+ "dior-sauvage-elixir": {
+  "ru": "Корица, мускатный орех и лаванда на лакрице и сандале. Самый пряный, густой и стойкий Sauvage.",
+  "uz": "Dolchin, muskat yongʻogʻi va lavanda qizilmiya va sandal ustida. Eng ziravorli, quyuq va bardoshli Sauvage.",
+  "en": "Cinnamon, nutmeg and lavender over licorice and sandalwood. The spiciest, richest, longest-lasting Sauvage."
+ },
+ "chanel-chance-eau-splendide": {
+  "ru": "Малина, роза и фиалка на мягком мускусе. Светлый, ягодный и очень нежный Chance.",
+  "uz": "Malina, atirgul va binafsha yumshoq mushk ustida. Yorqin, rezavorli va juda nozik Chance.",
+  "en": "Raspberry, rose and violet over soft musk. A bright, berry-tinted and very gentle Chance."
+ },
+ "gucci-guilty-elixir-pour-homme": {
+  "ru": "Лимон и острый перец с лавандой и цветком апельсина на пачули и ванили. Яркий, смелый и тёплый.",
+  "uz": "Limon va achchiq qalampir lavanda va apelsin guli bilan pachuli va vanil ustida. Yorqin, dadil va iliq.",
+  "en": "Lemon and chili with lavender and orange blossom over patchouli and vanilla. Bold, bright and warm."
+ },
+ "giorgio-armani-stronger-with-you-intensely": {
+  "ru": "Тоффи, корица и лаванда на ванили и тонке. Сладкий, тёплый и уютный аромат для холодов.",
+  "uz": "Toffi, dolchin va lavanda vanil va tonka ustida. Sovuq kunlar uchun shirin, iliq va shinam atir.",
+  "en": "Toffee, cinnamon and lavender over vanilla and tonka. A sweet, warm, cosy scent for the cold."
+ },
+ "dior-miss-dior-blooming-bouquet": {
+  "ru": "Пион и роза с цитрусами на белом мускусе. Нежный, светлый и романтичный.",
+  "uz": "Pion va atirgul sitruslar bilan oq mushk ustida. Nozik, yorqin va romantik.",
+  "en": "Peony and rose with citrus over white musk. Soft, light and romantic."
+ },
+ "essential-parfums-bois-imperial": {
+  "ru": "Базилик и чёрный перец на ветивере и акигалавуде. Современный «зелёно-древесный» аромат на любой случай.",
+  "uz": "Rayhon va qora qalampir vetiver va akigalavud ustida. Har qanday holat uchun zamonaviy yashil-yogʻochli atir.",
+  "en": "Basil and black pepper over vetiver and akigalawood. A modern green-woody scent for any occasion."
+ },
+ "giorgio-armani-stronger-with-you-parfum": {
+  "ru": "Мандарин, кардамон и корица на ванили и амбре. Тёплый пряный аромат с мягким сладким шлейфом.",
+  "uz": "Mandarin, kardamon va dolchin vanil va ambra ustida. Yumshoq shirin izli iliq ziravorli atir.",
+  "en": "Mandarin, cardamom and cinnamon over vanilla and amber. A warm, spicy scent with a soft sweet trail."
+ },
+ "nishane-ani": {
+  "ru": "Свежие цитрусы и ирис на сандале, уде и амбре. Мягкий, кремовый и при этом заметный.",
+  "uz": "Tarovatli sitruslar va iris sandal, ud va ambra ustida. Yumshoq, qaymoqsimon va shu bilan birga sezilarli.",
+  "en": "Fresh citrus and iris over sandalwood, oud and amber. Soft and creamy, yet noticeable."
+ },
+ "dior-miss-dior-rose-n-roses": {
+  "ru": "Роза, ещё раз роза — с грейпфрутом и розовым перцем на белом мускусе. Свежий весенний розовый аромат.",
+  "uz": "Atirgul va yana atirgul — greypfrut va pushti qalampir bilan oq mushk ustida. Tarovatli bahoriy atirgul atiri.",
+  "en": "Rose upon rose, with grapefruit and pink pepper over white musk. A fresh spring rose scent."
+ },
+ "yves-saint-laurent-myslf": {
+  "ru": "Бергамот и цветок апельсина на пачули, ванили и амброксане. Чистый и современный мужской аромат.",
+  "uz": "Bergamot va apelsin guli pachuli, vanil va ambroksan ustida. Toza va zamonaviy erkaklar atiri.",
+  "en": "Bergamot and orange blossom over patchouli, vanilla and Ambroxan. A clean, modern scent for men."
+ },
+ "giorgio-armani-stronger-with-you-tobacco": {
+  "ru": "Табачный лист, ваниль и корица на амбре и кедре. Тёплый сладко-табачный аромат.",
+  "uz": "Tamaki bargi, vanil va dolchin ambra va kedr ustida. Iliq, shirin-tamakili atir.",
+  "en": "Tobacco leaf, vanilla and cinnamon over amber and cedar. A warm, sweet tobacco scent."
+ },
+ "yves-saint-laurent-caban": {
+  "ru": "Розовый перец и гвоздика на тонке и ванили. Мягкий, «шерстяной» и уютный аромат из коллекции Le Vestiaire.",
+  "uz": "Pushti qalampir va qalampirmunchoq tonka va vanil ustida. Le Vestiaire kolleksiyasidan yumshoq, shinam atir.",
+  "en": "Pink pepper and clove over tonka and vanilla. A soft, woollen, cosy scent from Le Vestiaire."
+ },
+ "roja-parfums-apex": {
+  "ru": "Цитрусы и лаванда на дубовом мхе и амбре. Свежий, дорогой и уверенный мужской аромат.",
+  "uz": "Sitruslar va lavanda eman moxi va ambra ustida. Tarovatli, qimmatbaho va ishonchli erkaklar atiri.",
+  "en": "Citrus and lavender over oakmoss and amber. A fresh, luxurious and confident men’s scent."
+ },
+ "le-labo-gaiac-10": {
+  "ru": "Гваяковое дерево, кедр и ладан. Тихий, «чистый» древесный аромат, который держится на коже весь день.",
+  "uz": "Gvayak daraxti, kedr va ladan. Kun boʻyi terida saqlanadigan sokin, toza yogʻochli atir.",
+  "en": "Guaiac wood, cedar and incense. A quiet, clean woody scent that stays on skin all day."
+ },
+ "le-labo-the-noir-29": {
+  "ru": "Чёрный чай с инжиром и лавровым листом на кедре и табаке. Тёплый, сухой и благородный.",
+  "uz": "Anjir va dafna bargi bilan qora choy kedr va tamaki ustida. Iliq, quruq va olijanob.",
+  "en": "Black tea with fig and bay leaf over cedar and tobacco. Warm, dry and refined."
+ },
+ "tom-ford-cherry-smoke": {
+  "ru": "Вишня и шафран с кожей и дымом. Тёмная, копчёная версия вишнёвой темы Tom Ford.",
+  "uz": "Olcha va zaʼfaron teri va tutun bilan. Tom Ford olcha mavzusining qorongʻi, dudlangan talqini.",
+  "en": "Cherry and saffron with leather and smoke. A dark, smoky take on Tom Ford’s cherry theme."
+ },
+ "louis-vuitton-city-of-stars": {
+  "ru": "Красный апельсин, лайм и цветок тиаре на сандале. Яркий цитрус, похожий на ночные огни большого города.",
+  "uz": "Qizil apelsin, laym va tiare guli sandal ustida. Katta shahar tungi chiroqlariga oʻxshash yorqin sitrus.",
+  "en": "Blood orange, lime and tiare over sandalwood. A bright citrus like the night lights of a big city."
+ },
+ "creed-absolu-aventus": {
+  "ru": "Более тёмный и плотный Aventus: цитрусы, чёрная смородина и берёза на пачули и амбре.",
+  "uz": "Qorongʻiroq va quyuqroq Aventus: sitruslar, qora smorodina va qayin pachuli va ambra ustida.",
+  "en": "A darker, denser Aventus: citrus, blackcurrant and birch over patchouli and amber."
+ },
+ "bvlgari-le-gemme-onekh": {
+  "ru": "Кардамон, ладан и мирра на сандале и амбре. Смолистый, благородный восточный аромат.",
+  "uz": "Kardamon, ladan va mirra sandal va ambra ustida. Smolali, olijanob sharqona atir.",
+  "en": "Cardamom, incense and myrrh over sandalwood and amber. A resinous, noble oriental."
+ },
+ "clive-christian-x-masculine": {
+  "ru": "Ананас и кардамон с мускатным орехом на кедре и ванили. Роскошный фруктово-пряный мужской аромат.",
+  "uz": "Ananas va kardamon muskat yongʻogʻi bilan kedr va vanil ustida. Hashamatli mevali-ziravorli erkaklar atiri.",
+  "en": "Pineapple and cardamom with nutmeg over cedar and vanilla. A luxurious fruity-spicy men’s scent."
+ },
+ "haute-fragrance-company-devil-s-intrigue": {
+  "ru": "Персик, жасмин и тубероза на ванили и амбре. Соблазнительный и сладкий вечерний аромат.",
+  "uz": "Shaftoli, yasmin va tuberoza vanil va ambra ustida. Jozibali va shirin kechki atir.",
+  "en": "Peach, jasmine and tuberose over vanilla and amber. A seductive, sweet evening scent."
+ },
+ "initio-oud-for-greatness": {
+  "ru": "Шафран, мускатный орех и лаванда на уде и пачули. Мощный, «статусный» уд с огромным шлейфом.",
+  "uz": "Zaʼfaron, muskat yongʻogʻi va lavanda ud va pachuli ustida. Katta izli kuchli, maqomli ud.",
+  "en": "Saffron, nutmeg and lavender over oud and patchouli. A powerful, statement oud with a huge trail."
+ },
+ "louis-vuitton-meteore": {
+  "ru": "Бергамот, апельсин и мандарин с перцем на ветивере. Чистый, искрящийся цитрус.",
+  "uz": "Bergamot, apelsin va mandarin qalampir bilan vetiver ustida. Toza, yaltiroq sitrus.",
+  "en": "Bergamot, orange and mandarin with pepper over vetiver. A clean, sparkling citrus."
+ },
+ "stefano-ricci-royal-eagle": {
+  "ru": "Цитрусы и лаванда на кедре и амбре. Классический, сдержанный и дорогой мужской аромат.",
+  "uz": "Sitruslar va lavanda kedr va ambra ustida. Klassik, vazmin va qimmatbaho erkaklar atiri.",
+  "en": "Citrus and lavender over cedar and amber. A classic, restrained and luxurious men’s scent."
+ },
+ "tom-ford-tobacco-vanille": {
+  "ru": "Табачный лист, ваниль, какао и сухофрукты. Культовый тёплый аромат — как уютный кабинет с трубкой.",
+  "uz": "Tamaki bargi, vanil, kakao va quruq mevalar. Kult iliq atir — trubkali shinam kabinet kabi.",
+  "en": "Tobacco leaf, vanilla, cocoa and dried fruit. A cult warm scent, like a cosy study with a pipe."
+ },
+ "louis-vuitton-pacific-chill": {
+  "ru": "Цитрусы, мята и чёрная смородина с базиликом, абрикосом и финиками. Освежающий, как смузи у океана.",
+  "uz": "Sitruslar, yalpiz va qora smorodina rayhon, oʻrik va xurmo bilan. Okean boʻyidagi smuzi kabi tetiklashtiradi.",
+  "en": "Citrus, mint and blackcurrant with basil, apricot and date. As refreshing as a smoothie by the ocean."
+ },
+ "byredo-blanche": {
+  "ru": "Альдегиды, роза и пион на сандале и мускусе. Аромат чистой белой ткани — свежий и минималистичный.",
+  "uz": "Aldegidlar, atirgul va pion sandal va mushk ustida. Toza oq mato hidi — tarovatli va minimalistik.",
+  "en": "Aldehydes, rose and peony over sandalwood and musk. The scent of clean white linen, fresh and minimal."
+ },
+ "byredo-gypsy-water": {
+  "ru": "Бергамот, можжевельник и сосновая хвоя на ванили и сандале. Свежий «лесной» аромат с тёплым шлейфом.",
+  "uz": "Bergamot, archa va qaragʻay ignalari vanil va sandal ustida. Iliq izli tarovatli «oʻrmon» atiri.",
+  "en": "Bergamot, juniper and pine needles over vanilla and sandalwood. A fresh forest scent with a warm trail."
+ },
+ "creed-aventus-cologne": {
+  "ru": "Имбирь, мандарин и розовый перец на ветивере и мускусе. Более лёгкий и свежий родственник Aventus.",
+  "uz": "Zanjabil, mandarin va pushti qalampir vetiver va mushk ustida. Aventus ning yengilroq va tarovatliroq qarindoshi.",
+  "en": "Ginger, mandarin and pink pepper over vetiver and musk. A lighter, fresher relative of Aventus."
+ },
+ "louis-vuitton-orage": {
+  "ru": "Ирис, ветивер и пачули с бергамотом. Свежо-древесный аромат с ощущением грозового воздуха.",
+  "uz": "Iris, vetiver va pachuli bergamot bilan. Momaqaldiroq havosini eslatuvchi tarovatli-yogʻochli atir.",
+  "en": "Iris, vetiver and patchouli with bergamot. A fresh woody scent with the feel of storm air."
+ },
+ "kilian-good-girl-gone-bad": {
+  "ru": "Османтус, жасмин, тубероза и нарцисс. Пышный, медово-цветочный и соблазнительный.",
+  "uz": "Osmantus, yasmin, tuberoza va nargis. Hashamatli, asal-gulli va jozibali.",
+  "en": "Osmanthus, jasmine, tuberose and narcissus. A lush, honeyed and seductive floral."
+ },
+ "le-labo-rose-31": {
+  "ru": "Роза с тмином, ладаном и удом. Необычная «мужская» роза — пряная и древесная.",
+  "uz": "Zira, ladan va ud bilan atirgul. Gʻayrioddiy «erkakcha» atirgul — ziravorli va yogʻochli.",
+  "en": "Rose with cumin, incense and oud. An unusual masculine rose, spicy and woody."
+ },
+ "bond-no-9-greenwich-village": {
+  "ru": "Мандарин, инжир, лотос и жасмин на ванили. Светлый и жизнерадостный аромат нью-йоркского квартала.",
+  "uz": "Mandarin, anjir, lotus va yasmin vanil ustida. Nyu-York mahallasining yorqin va quvnoq atiri.",
+  "en": "Mandarin, fig, lotus and jasmine over vanilla. A bright, cheerful scent of a New York neighbourhood."
+ },
+ "byredo-la-tulipe": {
+  "ru": "Тюльпан, фрезия и ревень на ветивере. Свежий, зелёный и прозрачный весенний букет.",
+  "uz": "Lola, freziya va rovoch vetiver ustida. Tarovatli, yashil va shaffof bahoriy guldasta.",
+  "en": "Tulip, freesia and rhubarb over vetiver. A fresh, green and sheer spring bouquet."
+ },
+ "kilian-moonlight-in-heaven": {
+  "ru": "Грейпфрут, кокос и рис на ванили, тонке и манго. Тропический, сливочный и очень солнечный.",
+  "uz": "Greypfrut, kokos va guruch vanil, tonka va mango ustida. Tropik, qaymoqsimon va juda quyoshli.",
+  "en": "Grapefruit, coconut and rice over vanilla, tonka and mango. Tropical, creamy and very sunny."
+ },
+ "maison-francis-kurkdjian-724": {
+  "ru": "Бергамот, жасмин и душистый горошек на сандале и белом мускусе. Аромат чистоты и утреннего города.",
+  "uz": "Bergamot, yasmin va xushboʻy noʻxat sandal va oq mushk ustida. Tozalik va tonggi shahar atiri.",
+  "en": "Bergamot, jasmine and sweet pea over sandalwood and white musk. The scent of cleanliness and a city morning."
+ },
+ "maison-francis-kurkdjian-baccarat-rouge-540": {
+  "ru": "Шафран и жасмин на амбровом дереве и смоле ели. Культовый воздушный «сахарно-минеральный» шлейф.",
+  "uz": "Zaʼfaron va yasmin amberwud va archa smolasi ustida. Kult havodor «shakar-mineral» iz.",
+  "en": "Saffron and jasmine over amberwood and fir resin. The cult airy, sugary-mineral trail."
+ },
+ "byredo-bal-d-afrique": {
+  "ru": "Бергамот, нероли и бархатцы с фиалкой на ветивере и мускусе. Тёплый, солнечный и элегантный.",
+  "uz": "Bergamot, neroli va baxmalgul binafsha bilan vetiver va mushk ustida. Iliq, quyoshli va nafis.",
+  "en": "Bergamot, neroli and marigold with violet over vetiver and musk. Warm, sunny and elegant."
+ },
+ "nasomatto-black-afgano": {
+  "ru": "Каннабис, уд, ладан и кофе. Тёмный, густой и смолистый — один из самых плотных нишевых ароматов.",
+  "uz": "Kannabis, ud, ladan va qahva. Qorongʻi, quyuq va smolali — eng quyuq nisha atirlaridan biri.",
+  "en": "Cannabis, oud, incense and coffee. Dark, dense and resinous, one of the heaviest niche scents."
+ },
+ "tom-ford-ombre-leather-parfum": {
+  "ru": "Кардамон, кожа и жасмин на пачули и амбре. Мягкая, дорогая кожа с пряным оттенком.",
+  "uz": "Kardamon, teri va yasmin pachuli va ambra ustida. Ziravorli tusli yumshoq, qimmatbaho teri.",
+  "en": "Cardamom, leather and jasmine over patchouli and amber. Soft, luxurious leather with a spicy edge."
+ },
+ "xerjoff-naxos": {
+  "ru": "Лаванда, мёд и корица на табаке и ванили. Сладкий, медово-табачный и очень стойкий.",
+  "uz": "Lavanda, asal va dolchin tamaki va vanil ustida. Shirin, asal-tamakili va juda bardoshli.",
+  "en": "Lavender, honey and cinnamon over tobacco and vanilla. Sweet, honey-tobacco and very long-lasting."
+ },
+ "marc-antoine-barrois-ganymede": {
+  "ru": "Мандарин и фиалка с османтусом на замше и иммортели. Минеральный, кожистый и необычный.",
+  "uz": "Mandarin va binafsha osmantus bilan zamsh va immortel ustida. Mineral, terisimon va gʻayrioddiy.",
+  "en": "Mandarin and violet with osmanthus over suede and immortelle. Mineral, leathery and unusual."
+ },
+ "roja-parfums-elysium-pour-homme": {
+  "ru": "Цитрусы, ветивер и можжевельник на амбре и коже. Свежий, но богатый и дорогой мужской аромат.",
+  "uz": "Sitruslar, vetiver va archa ambra va teri ustida. Tarovatli, ammo boy va qimmatbaho erkaklar atiri.",
+  "en": "Citrus, vetiver and juniper over amber and leather. Fresh, yet rich and luxurious, for men."
+ },
+ "tiziana-terenzi-gumin": {
+  "ru": "Цитрусы и жасмин на мирре, ладане и сандале. Смолистый, тёплый и обволакивающий.",
+  "uz": "Sitruslar va yasmin mirra, ladan va sandal ustida. Smolali, iliq va oʻrab oluvchi.",
+  "en": "Citrus and jasmine over myrrh, incense and sandalwood. Resinous, warm and enveloping."
+ },
+ "byredo-mojave-ghost": {
+  "ru": "Амбретта, сапота и магнолия на сандале и мускусе. Мягкий, пудровый и чуть пустынный.",
+  "uz": "Ambretta, sapota va magnoliya sandal va mushk ustida. Yumshoq, upasimon va biroz sahroviy.",
+  "en": "Ambrette, sapodilla and magnolia over sandalwood and musk. Soft, powdery and a little desert-like."
+ },
+ "xerjoff-casamorati-mefisto": {
+  "ru": "Бергамот, лимон и лаванда с розой на мускусе и кедре. Элегантная свежая классика в итальянском стиле.",
+  "uz": "Bergamot, limon va lavanda atirgul bilan mushk va kedr ustida. Italyancha nafis tarovatli klassika.",
+  "en": "Bergamot, lemon and lavender with rose over musk and cedar. An elegant fresh classic, Italian style."
+ },
+ "louis-vuitton-symphony": {
+  "ru": "Грейпфрут, имбирь и бергамот. Лёгкий, искрящийся цитрус для жарких дней.",
+  "uz": "Greypfrut, zanjabil va bergamot. Issiq kunlar uchun yengil, yaltiroq sitrus.",
+  "en": "Grapefruit, ginger and bergamot. A light, sparkling citrus for hot days."
+ },
+ "louis-vuitton-stellar-times": {
+  "ru": "Апельсин и тубероза на амбре и бензоине. Тёплый, золотистый и обволакивающий.",
+  "uz": "Apelsin va tuberoza ambra va benzoin ustida. Iliq, oltin rang va oʻrab oluvchi.",
+  "en": "Orange and tuberose over amber and benzoin. Warm, golden and enveloping."
+ },
+ "tom-ford-mandarino-di-amalfi": {
+  "ru": "Мандарин, лимон и мята с базиликом и эстрагоном. Яркий «итальянский» цитрус на лето.",
+  "uz": "Mandarin, limon va yalpiz rayhon va tarxun bilan. Yoz uchun yorqin «italyan» sitrusi.",
+  "en": "Mandarin, lemon and mint with basil and tarragon. A vivid Italian citrus for summer."
+ },
+ "ormonde-jayne-osmanthus": {
+  "ru": "Османтус и жасмин с юдзу на кедре и мускусе. Нежный, абрикосово-чайный цветочный аромат.",
+  "uz": "Osmantus va yasmin yuzu bilan kedr va mushk ustida. Nozik, oʻrik-choyli gulli atir.",
+  "en": "Osmanthus and jasmine with yuzu over cedar and musk. A gentle, apricot-and-tea floral."
+ },
+ "louis-vuitton-l-immensite": {
+  "ru": "Грейпфрут, имбирь и лабданум на амбре. Свежий и одновременно тёплый — аромат открытого пространства.",
+  "uz": "Greypfrut, zanjabil va labdanum ambra ustida. Ham tarovatli, ham iliq — ochiq makon atiri.",
+  "en": "Grapefruit, ginger and labdanum over amber. Fresh and warm at once, the scent of open space."
+ },
+ "louis-vuitton-afternoon-swim": {
+  "ru": "Мандарин, апельсин и бергамот с имбирём. Солнечный цитрус — как купание жарким днём.",
+  "uz": "Mandarin, apelsin va bergamot zanjabil bilan. Quyoshli sitrus — issiq kunda choʻmilish kabi.",
+  "en": "Mandarin, orange and bergamot with ginger. A sunny citrus, like a swim on a hot afternoon."
+ },
+ "louis-vuitton-imagination": {
+  "ru": "Цитрон и бергамот с имбирём и корицей на чёрном чае. Свежий и одновременно глубокий мужской аромат.",
+  "uz": "Sitron va bergamot zanjabil va dolchin bilan qora choy ustida. Ham tarovatli, ham chuqur erkaklar atiri.",
+  "en": "Citron and bergamot with ginger and cinnamon over black tea. Fresh yet deep, for men."
+ },
+ "le-labo-santal-33": {
+  "ru": "Сандал и кедр с кардамоном, кожей и ирисом. Культовый древесный аромат — тёплый и узнаваемый.",
+  "uz": "Sandal va kedr kardamon, teri va iris bilan. Kult yogʻochli atir — iliq va tanish.",
+  "en": "Sandalwood and cedar with cardamom, leather and iris. A cult woody scent, warm and recognisable."
+ },
+ "bvlgari-le-gemme-tygar": {
+  "ru": "Грейпфрут и имбирь на амброксане и древесных нотах. Яркий, чистый и стойкий цитрус.",
+  "uz": "Greypfrut va zanjabil ambroksan va yogʻoch notalari ustida. Yorqin, toza va bardoshli sitrus.",
+  "en": "Grapefruit and ginger over Ambroxan and woods. A bright, clean and long-lasting citrus."
+ },
+ "ex-nihilo-fleur-narcotique": {
+  "ru": "Личи, персик и пион с жасмином на мускусе. Свежий, сочный и очень популярный цветочный аромат.",
+  "uz": "Lichi, shaftoli va pion yasmin bilan mushk ustida. Tarovatli, shirali va juda mashhur gulli atir.",
+  "en": "Lychee, peach and peony with jasmine over musk. A fresh, juicy and very popular floral."
+ },
+ "tom-ford-tuscan-leather": {
+  "ru": "Малина, шафран и тимьян на коже и замше. Дерзкая, насыщенная кожа — классика Tom Ford.",
+  "uz": "Malina, zaʼfaron va kakkuoʻt teri va zamsh ustida. Dadil, toʻyingan teri — Tom Ford klassikasi.",
+  "en": "Raspberry, saffron and thyme over leather and suede. Bold, rich leather, a Tom Ford classic."
+ },
+ "dolce-gabbana-k-by-dolce-gabbana": {
+  "ru": "Цитрусы и можжевельник с шалфеем и геранью на кедре и ветивере. Свежий, уверенный и универсальный.",
+  "uz": "Sitruslar va archa marmarak va geran bilan kedr va vetiver ustida. Tarovatli, ishonchli va universal.",
+  "en": "Citrus and juniper with sage and geranium over cedar and vetiver. Fresh, confident and versatile."
+ },
+ "tom-ford-oud-wood": {
+  "ru": "Уд, сандал и ветивер с кардамоном на тонке и ванили. Самый мягкий и «носибельный» уд.",
+  "uz": "Ud, sandal va vetiver kardamon bilan tonka va vanil ustida. Eng yumshoq va kundalik ud.",
+  "en": "Oud, sandalwood and vetiver with cardamom over tonka and vanilla. The smoothest, most wearable oud."
+ },
+ "tom-ford-lost-cherry": {
+  "ru": "Вишня, горький миндаль и ликёр на тонке и ванили. Сладкий, пьянящий и соблазнительный.",
+  "uz": "Olcha, achchiq bodom va liker tonka va vanil ustida. Shirin, mast qiluvchi va jozibali.",
+  "en": "Cherry, bitter almond and liqueur over tonka and vanilla. Sweet, heady and seductive."
+ },
+ "creed-aventus": {
+  "ru": "Ананас, бергамот и чёрная смородина на берёзе, мускусе и дубовом мхе. Самый известный мужской нишевый аромат.",
+  "uz": "Ananas, bergamot va qora smorodina qayin, mushk va eman moxi ustida. Eng mashhur erkaklar nisha atiri.",
+  "en": "Pineapple, bergamot and blackcurrant over birch, musk and oakmoss. The most famous niche scent for men."
+ },
+ "yves-saint-laurent-tuxedo": {
+  "ru": "Кориандр и ландыш с розой и пачули на ванили и амбре. Элегантный вечерний аромат, как смокинг.",
+  "uz": "Kashnich va marvarid gul atirgul va pachuli bilan vanil va ambra ustida. Smoking kabi nafis kechki atir.",
+  "en": "Coriander and lily of the valley with rose and patchouli over vanilla and amber. Elegant, like a tuxedo."
+ },
+ "byredo-black-saffron": {
+  "ru": "Шафран и можжевельник с кожей и фиалкой на ветивере. Пряный, тёплый и благородный.",
+  "uz": "Zaʼfaron va archa teri va binafsha bilan vetiver ustida. Ziravorli, iliq va olijanob.",
+  "en": "Saffron and juniper with leather and violet over vetiver. Spicy, warm and refined."
+ },
+ "le-labo-lavande-31": {
+  "ru": "Лаванда и цветок апельсина с шалфеем на кедре и мускусе. Чистая, светлая лаванда без «бабушкиного» оттенка.",
+  "uz": "Lavanda va apelsin guli marmarak bilan kedr va mushk ustida. Toza, yorqin lavanda, eskicha tussiz.",
+  "en": "Lavender and orange blossom with sage over cedar and musk. A clean, bright lavender, nothing old-fashioned."
+ },
+ "xerjoff-duran-duran": {
+  "ru": "Цитрусы, жасмин и ирис на ванили и табаке. Мягкий, тёплый и дорогой.",
+  "uz": "Sitruslar, yasmin va iris vanil va tamaki ustida. Yumshoq, iliq va qimmatbaho.",
+  "en": "Citrus, jasmine and iris over vanilla and tobacco. Soft, warm and luxurious."
+ },
+ "bvlgari-le-gemme-azaran": {
+  "ru": "Шафран, красная кожа и мирра на ванили и сандале. Насыщенный восточный аромат.",
+  "uz": "Zaʼfaron, qizil teri va mirra vanil va sandal ustida. Toʻyingan sharqona atir.",
+  "en": "Saffron, red leather and myrrh over vanilla and sandalwood. A rich oriental."
+ },
+ "louis-vuitton-eves": {
+  "ru": "Ирис и фиалка на ванили и мускусе. Пудровый, нежный и утончённый.",
+  "uz": "Iris va binafsha vanil va mushk ustida. Upasimon, nozik va nafis.",
+  "en": "Iris and violet over vanilla and musk. Powdery, soft and refined."
+ },
+ "vilhelm-parfumerie-mango-skin": {
+  "ru": "Манго и чёрная смородина с жасмином на ванили. Сочный тропический аромат с кремовой базой.",
+  "uz": "Mango va qora smorodina yasmin bilan vanil ustida. Qaymoqsimon asosli shirali tropik atir.",
+  "en": "Mango and blackcurrant with jasmine over vanilla. A juicy tropical scent on a creamy base."
+ },
+ "orto-parisi-cuoium": {
+  "ru": "Кожа и лаванда на амбре и дереве. Звериный, густой и очень стойкий — аромат с характером.",
+  "uz": "Teri va lavanda ambra va yogʻoch ustida. Yovvoyi, quyuq va juda bardoshli — xarakterli atir.",
+  "en": "Leather and lavender over amber and woods. Animalic, dense and extremely long-lasting, a scent with character."
+ },
+ "parfums-de-marly-valaya-exclusif": {
+  "ru": "Альдегиды, белый персик и цветок апельсина на ванили и мускусе. Чистый, «шёлковый» и элегантный.",
+  "uz": "Aldegidlar, oq shaftoli va apelsin guli vanil va mushk ustida. Toza, ipaksimon va nafis.",
+  "en": "Aldehydes, white peach and orange blossom over vanilla and musk. Clean, silky and elegant."
+ },
+ "sospiro-erba-pura": {
+  "ru": "Апельсин, лимон и фрукты на белом мускусе, амбре и ванили. Сладкий фруктовый аромат с большим шлейфом.",
+  "uz": "Apelsin, limon va mevalar oq mushk, ambra va vanil ustida. Katta izli shirin mevali atir.",
+  "en": "Orange, lemon and fruit over white musk, amber and vanilla. A sweet fruity scent with a big trail."
+ },
+ "marc-antoine-barrois-aldebaran": {
+  "ru": "Бадьян и кардамон с иммортелью и кожей на амбре и ванили. Тёплый, пряный и необычный.",
+  "uz": "Badyan va kardamon immortel va teri bilan ambra va vanil ustida. Iliq, ziravorli va gʻayrioddiy.",
+  "en": "Star anise and cardamom with immortelle and leather over amber and vanilla. Warm, spicy and unusual."
+ },
+ "hormone-paris-gaba": {
+  "ru": "Лаванда и цветок апельсина на ванили и мускусе. Мягкий, успокаивающий и уютный.",
+  "uz": "Lavanda va apelsin guli vanil va mushk ustida. Yumshoq, tinchlantiruvchi va shinam.",
+  "en": "Lavender and orange blossom over vanilla and musk. Soft, soothing and cosy."
+ },
+ "roja-parfums-isola-blu": {
+  "ru": "Цитрусы, кокос и жасмин на амбре и мускусе. Аромат средиземноморского отдыха.",
+  "uz": "Sitruslar, kokos va yasmin ambra va mushk ustida. Oʻrta yer dengizidagi dam olish atiri.",
+  "en": "Citrus, coconut and jasmine over amber and musk. The scent of a Mediterranean holiday."
+ },
+ "roja-parfums-elysium-pour-femme": {
+  "ru": "Цитрусы, роза и жасмин на ванили и мускусе. Свежий и роскошный женский аромат.",
+  "uz": "Sitruslar, atirgul va yasmin vanil va mushk ustida. Tarovatli va hashamatli ayollar atiri.",
+  "en": "Citrus, rose and jasmine over vanilla and musk. A fresh, luxurious women’s scent."
+ },
+ "stephane-humbert-lucas-soleil-de-jeddah": {
+  "ru": "Манго, кокос и жасмин на ванили и амбре. Солнечный, тропический и сладкий.",
+  "uz": "Mango, kokos va yasmin vanil va ambra ustida. Quyoshli, tropik va shirin.",
+  "en": "Mango, coconut and jasmine over vanilla and amber. Sunny, tropical and sweet."
+ },
+ "parfums-de-marly-greenley": {
+  "ru": "Зелёное яблоко и бергамот с кашмераном на кедре и мхе. Свежий, чистый и универсальный.",
+  "uz": "Yashil olma va bergamot kashmeran bilan kedr va mox ustida. Tarovatli, toza va universal.",
+  "en": "Green apple and bergamot with cashmeran over cedar and moss. Fresh, clean and versatile."
+ },
+ "parfums-de-marly-althair": {
+  "ru": "Кардамон, корица и цветок апельсина на ванили и пралине. Тёплый, сладкий и очень уютный.",
+  "uz": "Kardamon, dolchin va apelsin guli vanil va praline ustida. Iliq, shirin va juda shinam.",
+  "en": "Cardamom, cinnamon and orange blossom over vanilla and praline. Warm, sweet and very cosy."
+ },
+ "amouage-guidance": {
+  "ru": "Груша и ладан с розой и османтусом на ванили и сандале. Сливочный, светящийся и роскошный.",
+  "uz": "Nok va ladan atirgul va osmantus bilan vanil va sandal ustida. Qaymoqsimon, yorqin va hashamatli.",
+  "en": "Pear and incense with rose and osmanthus over vanilla and sandalwood. Creamy, glowing and luxurious."
+ },
+ "roja-parfums-oceania": {
+  "ru": "Лимон, морские ноты и мята на амбре и ветивере. Свежий морской аромат класса люкс.",
+  "uz": "Limon, dengiz notalari va yalpiz ambra va vetiver ustida. Hashamatli tarovatli dengiz atiri.",
+  "en": "Lemon, marine notes and mint over amber and vetiver. A luxurious fresh marine scent."
+ },
+ "stephane-humbert-lucas-god-of-fire": {
+  "ru": "Манго, имбирь и красные ягоды на амбре и дереве. Яркий, сочный и узнаваемый.",
+  "uz": "Mango, zanjabil va qizil rezavorlar ambra va yogʻoch ustida. Yorqin, shirali va tanish.",
+  "en": "Mango, ginger and red berries over amber and woods. Bright, juicy and recognisable."
+ },
+ "louis-vuitton-myriad": {
+  "ru": "Роза и гранат на древесных нотах и мускусе. Яркая, современная роза.",
+  "uz": "Atirgul va anor yogʻoch notalari va mushk ustida. Yorqin, zamonaviy atirgul.",
+  "en": "Rose and pomegranate over woods and musk. A vivid, modern rose."
+ },
+ "ex-nihilo-blue-talisman": {
+  "ru": "Бергамот, груша и мандарин с цветком апельсина на мускусе. Свежий, фруктовый и светлый.",
+  "uz": "Bergamot, nok va mandarin apelsin guli bilan mushk ustida. Tarovatli, mevali va yorqin.",
+  "en": "Bergamot, pear and mandarin with orange blossom over musk. Fresh, fruity and bright."
+ },
+ "memo-paris-eau-de-memo": {
+  "ru": "Лимон, апельсин и цветок апельсина на мускусе. Лёгкий, чистый и солнечный.",
+  "uz": "Limon, apelsin va apelsin guli mushk ustida. Yengil, toza va quyoshli.",
+  "en": "Lemon, orange and orange blossom over musk. Light, clean and sunny."
+ },
+ "byredo-marijuana": {
+  "ru": "Каннабис и ветивер с ладаном на кедре. Зелёный, дымный и расслабленный.",
+  "uz": "Kannabis va vetiver ladan bilan kedr ustida. Yashil, tutunli va xotirjam.",
+  "en": "Cannabis and vetiver with incense over cedar. Green, smoky and laid-back."
+ },
+ "marc-antoine-barrois-tilia": {
+  "ru": "Липовый цвет с цитрусами и мёдом на мускусе. Нежный, солнечный аромат цветущей липы.",
+  "uz": "Sitruslar va asal bilan joʻka guli mushk ustida. Gullagan joʻkaning nozik, quyoshli atiri.",
+  "en": "Linden blossom with citrus and honey over musk. A gentle, sunny scent of a linden tree in bloom."
+ },
+ "orto-parisi-bergamask": {
+  "ru": "Бергамот на сандале и лабдануме. Цитрус с неожиданно тёплым и стойким шлейфом.",
+  "uz": "Bergamot sandal va labdanum ustida. Kutilmaganda iliq va bardoshli izli sitrus.",
+  "en": "Bergamot over sandalwood and labdanum. A citrus with a surprisingly warm, lasting trail."
+ },
+ "sospiro-vibrato": {
+  "ru": "Апельсин и кардамон на ванили, амбре и ладане. Тёплый, сладкий и насыщенный.",
+  "uz": "Apelsin va kardamon vanil, ambra va ladan ustida. Iliq, shirin va toʻyingan.",
+  "en": "Orange and cardamom over vanilla, amber and incense. Warm, sweet and rich."
+ },
+ "ormonde-jayne-montabaco": {
+  "ru": "Цитрусы, табачный лист и кожа на ванили и тонке. Мягкий, тёплый табак.",
+  "uz": "Sitruslar, tamaki bargi va teri vanil va tonka ustida. Yumshoq, iliq tamaki.",
+  "en": "Citrus, tobacco leaf and leather over vanilla and tonka. A soft, warm tobacco."
+ },
+ "louis-vuitton-rain-tea": {
+  "ru": "Бергамот и лайм с чаем и жасмином на белом мускусе. Свежий, чистый — как чай после летнего дождя.",
+  "uz": "Bergamot va laym choy va yasmin bilan oq mushk ustida. Tarovatli, toza — yozgi yomgʻirdan keyingi choy kabi.",
+  "en": "Bergamot and lime with tea and jasmine over white musk. Fresh and clean, like tea after summer rain."
+ },
+ "xerjoff-torino21": {
+  "ru": "Лимон, бергамот и лаванда с жасмином на кедре и мускусе. Свежий, светлый и бодрящий.",
+  "uz": "Limon, bergamot va lavanda yasmin bilan kedr va mushk ustida. Tarovatli, yorqin va tetiklashtiruvchi.",
+  "en": "Lemon, bergamot and lavender with jasmine over cedar and musk. Fresh, bright and invigorating."
+ },
+ "clive-christian-20-iconic-masculine": {
+  "ru": "Лайм и морские ноты с ирисом на сандале и уде. Свежий, но дорогой и глубокий мужской аромат.",
+  "uz": "Laym va dengiz notalari iris bilan sandal va ud ustida. Tarovatli, ammo qimmatbaho va chuqur erkaklar atiri.",
+  "en": "Lime and marine notes with iris over sandalwood and oud. Fresh, yet rich and deep, for men."
+ },
+ "parfums-de-marly-delina-la-rosee": {
+  "ru": "Личи и груша с розой и пионом на мускусе. Самая свежая и прозрачная версия Delina.",
+  "uz": "Lichi va nok atirgul va pion bilan mushk ustida. Delina ning eng tarovatli va shaffof versiyasi.",
+  "en": "Lychee and pear with rose and peony over musk. The freshest, sheerest version of Delina."
+ },
+ "sospiro-deep-ocean-amber": {
+  "ru": "Лайм и морские ноты с ладаном на амбре и ванили. Свежий сверху и тёплый в шлейфе.",
+  "uz": "Laym va dengiz notalari ladan bilan ambra va vanil ustida. Boshida tarovatli, izida iliq.",
+  "en": "Lime and marine notes with incense over amber and vanilla. Fresh up top, warm in the trail."
+ },
+ "kilian-love-don-t-be-shy": {
+  "ru": "Цветок апельсина и роза с карамелью и ванилью на мускусе. Сладкий, «зефирный» и очень стойкий.",
+  "uz": "Apelsin guli va atirgul karamel va vanil bilan mushk ustida. Shirin, zefirsimon va juda bardoshli.",
+  "en": "Orange blossom and rose with caramel and vanilla over musk. Sweet, marshmallowy and very long-lasting."
+ },
+ "parfums-de-marly-valero": {
+  "ru": "Цитрусы и лаванда с жасмином и фиалкой на кедре и сандале. Свежий и элегантный.",
+  "uz": "Sitruslar va lavanda yasmin va binafsha bilan kedr va sandal ustida. Tarovatli va nafis.",
+  "en": "Citrus and lavender with jasmine and violet over cedar and sandalwood. Fresh and elegant."
+ },
+ "creed-original-vetiver": {
+  "ru": "Бергамот, розмарин и нероли на ветивере и сандале. Чистый, зелёный и благородный ветивер.",
+  "uz": "Bergamot, rozmarin va neroli vetiver va sandal ustida. Toza, yashil va olijanob vetiver.",
+  "en": "Bergamot, rosemary and neroli over vetiver and sandalwood. A clean, green and noble vetiver."
+ },
+ "borntostandout-fugdzzi": {
+  "ru": "Лайм и зелёные ноты с цветком апельсина и лавандой на кедре и амбре. Свежий и жизнерадостный.",
+  "uz": "Laym va yashil notalar apelsin guli va lavanda bilan kedr va ambra ustida. Tarovatli va quvnoq.",
+  "en": "Lime and green notes with orange blossom and lavender over cedar and amber. Fresh and cheerful."
+ },
+ "creed-wild-vetiver": {
+  "ru": "Лайм и зелёные ноты с петитгрейном на ветивере. Свежий, «полевой» и лёгкий.",
+  "uz": "Laym va yashil notalar petitgreyn bilan vetiver ustida. Tarovatli, «dala» kabi va yengil.",
+  "en": "Lime and green notes with petitgrain over vetiver. Fresh, outdoorsy and light."
+ },
+ "byredo-gypsy-water-absolu": {
+  "ru": "Бергамот и перец с ладаном и хвоей на ванили и сандале. Более глубокая и смолистая версия Gypsy Water.",
+  "uz": "Bergamot va qalampir ladan va ignalar bilan vanil va sandal ustida. Gypsy Water ning chuqurroq va smolaliroq versiyasi.",
+  "en": "Bergamot and pepper with incense and pine over vanilla and sandalwood. A deeper, more resinous Gypsy Water."
+ },
+ "louis-vuitton-fantasmagory": {
+  "ru": "Цитрусы с жасмином и ванилью на сандале и амбре. Сладкий, яркий и праздничный.",
+  "uz": "Sitruslar yasmin va vanil bilan sandal va ambra ustida. Shirin, yorqin va bayramona.",
+  "en": "Citrus with jasmine and vanilla over sandalwood and amber. Sweet, bright and festive."
+ },
+ "stephane-humbert-lucas-sand-dance": {
+  "ru": "Шафран и розовый перец с жасмином и карамелью на амбре и уде. Тёплый, сладкий и пустынный.",
+  "uz": "Zaʼfaron va pushti qalampir yasmin va karamel bilan ambra va ud ustida. Iliq, shirin va sahroviy.",
+  "en": "Saffron and pink pepper with jasmine and caramel over amber and oud. Warm, sweet and desert-like."
+ },
+ "stephane-humbert-lucas-the-queen-and-the-viper": {
+  "ru": "Персик и цветок апельсина с туберозой и ирисом на сандале, уде и ванили. Пышный и соблазнительный.",
+  "uz": "Shaftoli va apelsin guli tuberoza va iris bilan sandal, ud va vanil ustida. Hashamatli va jozibali.",
+  "en": "Peach and orange blossom with tuberose and iris over sandalwood, oud and vanilla. Lush and seductive."
+ },
+ "tom-ford-soleil-blanc": {
+  "ru": "Бергамот и цветок апельсина с кокосом и иланг-илангом на амбре. Аромат солнца и пляжа.",
+  "uz": "Bergamot va apelsin guli kokos va ilang-ilang bilan ambra ustida. Quyosh va plyaj atiri.",
+  "en": "Bergamot and orange blossom with coconut and ylang-ylang over amber. The scent of sun and beach."
+ },
+ "byredo-mojave-ghost-absolu": {
+  "ru": "Груша и магнолия с фиалкой и сандалом на амбре и мускусе. Более насыщенная версия Mojave Ghost.",
+  "uz": "Nok va magnoliya binafsha va sandal bilan ambra va mushk ustida. Mojave Ghost ning toʻyinganroq versiyasi.",
+  "en": "Pear and magnolia with violet and sandalwood over amber and musk. A richer Mojave Ghost."
+ },
+ "kilian-angels-share-on-the-rocks": {
+  "ru": "Коньяк и корица с миррой на дубе и ванили. Тёплый «алкогольный» аромат с прохладной свежестью.",
+  "uz": "Konyak va dolchin mirra bilan eman va vanil ustida. Salqin tarovatli iliq «ichimlik» atiri.",
+  "en": "Cognac and cinnamon with myrrh over oak and vanilla. A warm boozy scent with a cool twist."
+ },
+ "yves-saint-laurent-babycat": {
+  "ru": "Розовый перец и ладан с кофе и ванилью на пачули. Тёмный, сладкий и уютный.",
+  "uz": "Pushti qalampir va ladan qahva va vanil bilan pachuli ustida. Qorongʻi, shirin va shinam.",
+  "en": "Pink pepper and incense with coffee and vanilla over patchouli. Dark, sweet and cosy."
+ },
+ "jo-malone-oud-bergamot-cologne-intense": {
+  "ru": "Бергамот и лаванда с удом и кедром на амбре. Мягкий, светлый уд.",
+  "uz": "Bergamot va lavanda ud va kedr bilan ambra ustida. Yumshoq, yorqin ud.",
+  "en": "Bergamot and lavender with oud and cedar over amber. A soft, bright oud."
+ },
+ "amouage-line-018": {
+  "ru": "Бергамот и жасмин с розой и иланг-илангом на уде и амбре. Цветочный и глубокий.",
+  "uz": "Bergamot va yasmin atirgul va ilang-ilang bilan ud va ambra ustida. Gulli va chuqur.",
+  "en": "Bergamot and jasmine with rose and ylang-ylang over oud and amber. Floral and deep."
+ },
+ "amouage-love-delight": {
+  "ru": "Цитрусы и розовый перец с жасмином и пионом на сандале и ванили. Нежный и роскошный.",
+  "uz": "Sitruslar va pushti qalampir yasmin va pion bilan sandal va vanil ustida. Nozik va hashamatli.",
+  "en": "Citrus and pink pepper with jasmine and peony over sandalwood and vanilla. Tender and luxurious."
+ },
+ "nishane-safran-colognise": {
+  "ru": "Шафран с цитрусами, лавандой и розой на уде и амбре. Свежий, но пряный и стойкий.",
+  "uz": "Zaʼfaron sitruslar, lavanda va atirgul bilan ud va ambra ustida. Tarovatli, ammo ziravorli va bardoshli.",
+  "en": "Saffron with citrus, lavender and rose over oud and amber. Fresh, yet spicy and long-lasting."
+ },
+ "kilian-blue-moon-ginger-dash": {
+  "ru": "Бергамот и цитрусы с цветами на древесной базе. Свежий, лёгкий и бодрящий.",
+  "uz": "Bergamot va sitruslar gullar bilan yogʻoch asosida. Tarovatli, yengil va tetiklashtiruvchi.",
+  "en": "Bergamot and citrus with flowers over woods. Fresh, light and invigorating."
+ },
+ "amouage-opus-xvi-timber": {
+  "ru": "Кардамон и розовый перец с кедром и ладаном на уде и ветивере. Сухой, древесный и благородный.",
+  "uz": "Kardamon va pushti qalampir kedr va ladan bilan ud va vetiver ustida. Quruq, yogʻochli va olijanob.",
+  "en": "Cardamom and pink pepper with cedar and incense over oud and vetiver. Dry, woody and noble."
+ },
+ "amouage-sequence": {
+  "ru": "Цитрусы и розовый перец с жасмином, магнолией и ирисом на сандале и ванили. Мягкий и элегантный.",
+  "uz": "Sitruslar va pushti qalampir yasmin, magnoliya va iris bilan sandal va vanil ustida. Yumshoq va nafis.",
+  "en": "Citrus and pink pepper with jasmine, magnolia and iris over sandalwood and vanilla. Soft and elegant."
+ },
+ "louis-vuitton-moon-tale": {
+  "ru": "Цитрусы с жасмином и цветком апельсина на ванили и мускусе. Светлый, нежный, «лунный».",
+  "uz": "Sitruslar yasmin va apelsin guli bilan vanil va mushk ustida. Yorqin, nozik, «oydin».",
+  "en": "Citrus with jasmine and orange blossom over vanilla and musk. Bright, gentle and moonlit."
+ },
+ "louis-vuitton-ink-mark": {
+  "ru": "Мандарин и розовый перец с ирисом и фиалкой на ванили и уде. Пудровый и глубокий.",
+  "uz": "Mandarin va pushti qalampir iris va binafsha bilan vanil va ud ustida. Upasimon va chuqur.",
+  "en": "Mandarin and pink pepper with iris and violet over vanilla and oud. Powdery and deep."
+ },
+ "maison-crivelli-tubereuse-astrale": {
+  "ru": "Тубероза и клементин на ванили и кедре. Сливочная, яркая тубероза.",
+  "uz": "Tuberoza va klementin vanil va kedr ustida. Qaymoqsimon, yorqin tuberoza.",
+  "en": "Tuberose and clementine over vanilla and cedar. A creamy, bright tuberose."
+ },
+ "ormonde-jayne-verano": {
+  "ru": "Цитрусы и морские ноты с лавандой и жасмином на сандале. Свежий летний аромат.",
+  "uz": "Sitruslar va dengiz notalari lavanda va yasmin bilan sandal ustida. Tarovatli yozgi atir.",
+  "en": "Citrus and marine notes with lavender and jasmine over sandalwood. A fresh summer scent."
+ },
+ "borntostandout-drunk-lovers": {
+  "ru": "Инжир и розовый перец с жасмином и ванилью на сандале и уде. Сладкий и пьянящий.",
+  "uz": "Anjir va pushti qalampir yasmin va vanil bilan sandal va ud ustida. Shirin va mast qiluvchi.",
+  "en": "Fig and pink pepper with jasmine and vanilla over sandalwood and oud. Sweet and heady."
+ },
+ "frederic-malle-portrait-of-a-lady": {
+  "ru": "Роза с корицей на пачули, сандале и уде. Знаменитая насыщенная роза — роскошная и смелая.",
+  "uz": "Dolchin bilan atirgul pachuli, sandal va ud ustida. Mashhur toʻyingan atirgul — hashamatli va dadil.",
+  "en": "Rose with cinnamon over patchouli, sandalwood and oud. The famous rich rose, luxurious and bold."
+ },
+ "stephane-humbert-lucas-pink-boa": {
+  "ru": "Малина, личи и пион на ванили и амбре. Сладкий, ягодный и игривый.",
+  "uz": "Malina, lichi va pion vanil va ambra ustida. Shirin, rezavorli va oʻynoqi.",
+  "en": "Raspberry, lychee and peony over vanilla and amber. Sweet, berry-like and playful."
+ },
+ "amouage-epic-man": {
+  "ru": "Перец и лайм с ладаном и ирисом на уде, коже и сандале. Восточный, глубокий и величественный.",
+  "uz": "Qalampir va laym ladan va iris bilan ud, teri va sandal ustida. Sharqona, chuqur va ulugʻvor.",
+  "en": "Pepper and lime with incense and iris over oud, leather and sandalwood. Oriental, deep and majestic."
+ },
+ "parfums-de-marly-carios": {
+  "ru": "Груша и розовый перец с жасмином и туберозой на мускусе и кедре. Свежий и цветочный.",
+  "uz": "Nok va pushti qalampir yasmin va tuberoza bilan mushk va kedr ustida. Tarovatli va gulli.",
+  "en": "Pear and pink pepper with jasmine and tuberose over musk and cedar. Fresh and floral."
+ },
+ "hormone-paris-this-is-not-dopamine": {
+  "ru": "Цитрусы с лавандой и цветком апельсина на кедре и амбре. Бодрящий аромат хорошего настроения.",
+  "uz": "Sitruslar lavanda va apelsin guli bilan kedr va ambra ustida. Yaxshi kayfiyat beruvchi tetik atir.",
+  "en": "Citrus with lavender and orange blossom over cedar and amber. An uplifting good-mood scent."
+ },
+ "roja-parfums-elysium-eau-intense": {
+  "ru": "Бергамот, лаванда и можжевельник на кедре и амбре. Насыщенная версия Elysium.",
+  "uz": "Bergamot, lavanda va archa kedr va ambra ustida. Elysium ning toʻyingan versiyasi.",
+  "en": "Bergamot, lavender and juniper over cedar and amber. A richer version of Elysium."
+ },
+ "stephane-humbert-lucas-venom-incarnat": {
+  "ru": "Красные ягоды и смородина с розой и шафраном на уде и ванили. Тёмный и чувственный.",
+  "uz": "Qizil rezavorlar va smorodina atirgul va zaʼfaron bilan ud va vanil ustida. Qorongʻi va hissiyotli.",
+  "en": "Red berries and blackcurrant with rose and saffron over oud and vanilla. Dark and sensual."
+ },
+ "chanel-bleu-de-chanel-l-exclusif": {
+  "ru": "Бергамот и лаванда на уде и амбре. Эксклюзивная, более тёплая и восточная версия Bleu.",
+  "uz": "Bergamot va lavanda ud va ambra ustida. Bleu ning eksklyuziv, iliqroq va sharqonaroq versiyasi.",
+  "en": "Bergamot and lavender over oud and amber. An exclusive, warmer and more oriental Bleu."
+ },
+ "dior-oud-rosewood": {
+  "ru": "Роза и шафран на уде, пачули и коже. Тёмный, бархатный и дорогой.",
+  "uz": "Atirgul va zaʼfaron ud, pachuli va teri ustida. Qorongʻi, baxmal va qimmatbaho.",
+  "en": "Rose and saffron over oud, patchouli and leather. Dark, velvety and luxurious."
+ },
+ "parfums-de-marly-delina-exclusif": {
+  "ru": "Личи и мускатный орех с розой и пионом на ванили и сандале. Насыщенная, сладкая роза — ярче классической Delina.",
+  "uz": "Lichi va muskat yongʻogʻi atirgul va pion bilan vanil va sandal ustida. Toʻyingan, shirin atirgul — klassik Delina dan yorqinroq.",
+  "en": "Lychee and nutmeg with rose and peony over vanilla and sandalwood. A rich, sweet rose, bolder than classic Delina."
+ },
+ "amouage-outlands": {
+  "ru": "Цитрусы и розовый перец с нероли и ветивером на уде и амбре. Свежий, но глубокий.",
+  "uz": "Sitruslar va pushti qalampir neroli va vetiver bilan ud va ambra ustida. Tarovatli, ammo chuqur.",
+  "en": "Citrus and pink pepper with neroli and vetiver over oud and amber. Fresh, yet deep."
+ },
+ "clive-christian-matsukita": {
+  "ru": "Лайм и чёрный перец с жасмином и розой на сандале и уде. Роскошный, яркий и стойкий.",
+  "uz": "Laym va qora qalampir yasmin va atirgul bilan sandal va ud ustida. Hashamatli, yorqin va bardoshli.",
+  "en": "Lime and black pepper with jasmine and rose over sandalwood and oud. Luxurious, vivid and lasting."
+ },
+ "clive-christian-town-country": {
+  "ru": "Бергамот и лайм на мхе и древесных нотах. Свежий, «английский» и сдержанный.",
+  "uz": "Bergamot va laym mox va yogʻoch notalari ustida. Tarovatli, «inglizcha» va vazmin.",
+  "en": "Bergamot and lime over moss and woods. Fresh, very English and understated."
+ },
+ "clive-christian-xxi-art-deco-blonde-amber": {
+  "ru": "Кардамон и розовый перец с ирисом на амбре, ванили и уде. Тёплая, золотистая амбра.",
+  "uz": "Kardamon va pushti qalampir iris bilan ambra, vanil va ud ustida. Iliq, oltin rang ambra.",
+  "en": "Cardamom and pink pepper with iris over amber, vanilla and oud. A warm, golden amber."
+ },
+ "boadicea-the-victorious-heroine": {
+  "ru": "Имбирь, розмарин и лаванда на мускусе. Свежий, травянистый и бодрящий.",
+  "uz": "Zanjabil, rozmarin va lavanda mushk ustida. Tarovatli, oʻtsimon va tetiklashtiruvchi.",
+  "en": "Ginger, rosemary and lavender over musk. Fresh, herbal and invigorating."
+ },
+ "boadicea-the-victorious-hanuman": {
+  "ru": "Апельсин и шафран на амбре и ванили. Тёплый, яркий и солнечный.",
+  "uz": "Apelsin va zaʼfaron ambra va vanil ustida. Iliq, yorqin va quyoshli.",
+  "en": "Orange and saffron over amber and vanilla. Warm, bright and sunny."
+ },
+ "boadicea-the-victorious-golden-aries": {
+  "ru": "Кардамон и шафран на амбре и ванили. Тёплый пряно-амбровый аромат.",
+  "uz": "Kardamon va zaʼfaron ambra va vanil ustida. Iliq ziravorli-ambrali atir.",
+  "en": "Cardamom and saffron over amber and vanilla. A warm, spicy amber."
+ },
+ "boadicea-the-victorious-dragon": {
+  "ru": "Имбирь и уд на амбре и мускусе. Тёмный, пряный и мощный.",
+  "uz": "Zanjabil va ud ambra va mushk ustida. Qorongʻi, ziravorli va kuchli.",
+  "en": "Ginger and oud over amber and musk. Dark, spicy and powerful."
+ },
+ "ajmal-musk-silk-supreme": {
+  "ru": "Белый мускус, лилия и роза на сандале. Чистый, мягкий и «шёлковый».",
+  "uz": "Oq mushk, liliya va atirgul sandal ustida. Toza, yumshoq va ipaksimon.",
+  "en": "White musk, lily and rose over sandalwood. Clean, soft and silky."
+ },
+ "louis-vuitton-ombre-nomade": {
+  "ru": "Чёрный перец, ладан и уд с розой на ванили и амбре. Глубокий, смолистый и очень стойкий восточный аромат.",
+  "uz": "Qora qalampir, ladan va ud atirgul bilan vanil va ambra ustida. Chuqur, smolali va juda bardoshli sharqona atir.",
+  "en": "Black pepper, incense and oud with rose over vanilla and amber. A deep, resinous and very long-lasting oriental."
+ },
+ "louis-vuitton-ambre-levant": {
+  "ru": "Цитрусы и лаванда с цветком апельсина и амброй на ванили и уде. Тёплая, золотистая амбра.",
+  "uz": "Sitruslar va lavanda apelsin guli va ambra bilan vanil va ud ustida. Iliq, oltin rang ambra.",
+  "en": "Citrus and lavender with orange blossom and amber over vanilla and oud. A warm, golden amber."
+ }
+}

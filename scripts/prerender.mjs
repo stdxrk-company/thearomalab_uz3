@@ -14,6 +14,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const dist = join(root, 'dist')
 const template = readFileSync(join(dist, 'index.html'), 'utf8')
 const products = JSON.parse(readFileSync(join(root, 'src', 'data', 'products.json'), 'utf8'))
+const descriptions = JSON.parse(readFileSync(join(root, 'src', 'data', 'descriptions.json'), 'utf8'))
 
 const USD_RATE = 11980.36 // keep in sync with src/config.ts
 const toUzs = (usd) => Math.ceil((usd * USD_RATE) / 1000) * 1000
@@ -60,7 +61,7 @@ for (const p of products) {
     join('perfume', p.id),
     page({
       title: `${p.brand} ${p.name} — распив 10 мл | The Aroma Lab`,
-      description: `${p.brand} ${p.name} в распив: 10 мл — ${price} сум. Оригинальная парфюмерия, доставка по Ташкенту и Узбекистану.`,
+      description: `${descriptions[p.id]?.ru ? descriptions[p.id].ru + ' ' : ''}Распив 10 мл — ${price} сум. Доставка по Ташкенту и Узбекистану.`,
       image: p.image,
     }),
   )

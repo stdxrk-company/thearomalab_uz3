@@ -1,4 +1,5 @@
 import raw from '../data/products.json'
+import descriptions from '../data/descriptions.json'
 import { MERCH, PRICING } from '../config'
 import { DICTS } from '../i18n/dicts'
 import type { Lang } from '../i18n/lang'
@@ -40,6 +41,11 @@ const byId = new Map(products.map((p) => [p.id, p]))
 
 export function getProduct(id: string): Product | undefined {
   return byId.get(id)
+}
+
+/** A short description of the scent in the given language (src/data/descriptions.json). */
+export function productDescription(p: Product, lang: Lang): string | undefined {
+  return (descriptions as Record<string, Record<Lang, string>>)[p.id]?.[lang]
 }
 
 export function toUzs(usd: number): number {
