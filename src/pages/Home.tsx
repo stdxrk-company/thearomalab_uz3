@@ -14,6 +14,7 @@ export function HomePage() {
   const cart = useCart()
   const { t, sum, loc } = useI18n()
   const reply = loc(CHECKOUT.replyTime)
+  const heroPhoto = getProduct(MERCH.heroId)
   const feature = getProduct(MERCH.featureId)
   const fresh = pickProducts(MERCH.newIds).slice(0, 4)
   const hits = pickProducts(MERCH.hitIds).slice(0, 4)
@@ -26,6 +27,11 @@ export function HomePage() {
     <>
       {/* ---------- HERO: three panels, one per section ---------- */}
       <section className={s.hero}>
+        {heroPhoto && (
+          <Link to={`/perfume/${heroPhoto.id}`} className={s.heroPhoto} tabIndex={-1} aria-hidden>
+            <img src={heroPhoto.image} alt="" loading="eager" fetchPriority="high" width={800} height={1200} />
+          </Link>
+        )}
         <div className={s.heroText}>
           <p className="eyebrow">{loc(MERCH.heroLabel)}</p>
           <h1 className={s.h1}>{loc(MERCH.heroTitle)}</h1>
@@ -47,6 +53,16 @@ export function HomePage() {
           })}
         </div>
       </section>
+
+      {/* ---------- phones/tablets: who it's for, under the photo ---------- */}
+      <nav className={s.genders} aria-label={t.home.forWhom}>
+        {GENDERS.map((g) => (
+          <Link key={g} to={`/catalog?g=${g}`} className={s.gender}>
+            <span className={s.genderName}>{t.genderShort[g]}</span>
+            <span className={s.genderCount}>{countBy(g)}</span>
+          </Link>
+        ))}
+      </nav>
 
       {/* ---------- NEW ---------- */}
       {fresh.length > 0 && (

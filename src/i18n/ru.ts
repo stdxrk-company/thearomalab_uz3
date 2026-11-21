@@ -18,6 +18,7 @@ export const ru = {
 
   gender: { men: 'Мужской', women: 'Женский', unisex: 'Унисекс' },
   genderFilter: { men: 'Мужские', women: 'Женские', unisex: 'Унисекс' },
+  genderShort: { men: 'Для него', women: 'Для неё', unisex: 'Унисекс' },
 
   nav: {
     catalog: 'Каталог',

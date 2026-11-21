@@ -17,6 +17,7 @@ export const uz: Dict = {
 
   gender: { men: 'Erkaklar uchun', women: 'Ayollar uchun', unisex: 'Uniseks' },
   genderFilter: { men: 'Erkaklar', women: 'Ayollar', unisex: 'Uniseks' },
+  genderShort: { men: 'Erkaklarga', women: 'Ayollarga', unisex: 'Uniseks' },
 
   nav: {
     catalog: 'Katalog',

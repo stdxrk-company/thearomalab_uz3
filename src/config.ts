@@ -43,12 +43,14 @@ export const MERCH = {
     uz: 'Dunyo parfyumeriya uylarining original atirlari 10 ml flakonlarda',
     en: 'Original perfume from the great houses, in 10 ml bottles',
   } satisfies Localized,
+  /** Full-width photo behind the title on phones and tablets (desktop shows the three panels). */
+  heroId: 'maison-francis-kurkdjian-baccarat-rouge-540',
   /** The big black feature block on the homepage. */
-  featureId: 'maison-francis-kurkdjian-baccarat-rouge-540',
+  featureId: 'louis-vuitton-ombre-nomade',
   featureText: {
-    ru: 'Шафран, жасмин, амбра и кедр. Попробуйте его во флаконе 10 мл, прежде чем решиться на большой.',
-    uz: 'Zaʼfaron, yasmin, ambra va kedr. Katta flakonga qaror qilishdan oldin uni 10 ml flakonda sinab koʻring.',
-    en: 'Saffron, jasmine, amber and cedar. Try it in a 10 ml bottle before you commit to a full size.',
+    ru: 'Чёрный перец, уд и ваниль. Попробуйте его во флаконе 10 мл, прежде чем решиться на большой.',
+    uz: 'Qora murch, ud va vanil. Katta flakonga qaror qilishdan oldin uni 10 ml flakonda sinab koʻring.',
+    en: 'Black pepper, oud and vanilla. Try it in a 10 ml bottle before you commit to a full size.',
   } satisfies Localized,
   /** Marked «Новинка» on cards and shown in the «Новинки» row. */
   newIds: [
