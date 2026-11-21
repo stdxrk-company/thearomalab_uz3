@@ -10,7 +10,7 @@ export { DICTS }
 
 const STORAGE_KEY = 'aromalab.lang'
 
-/** ?lang= in the URL first, then the saved choice; Russian otherwise. */
+/** ?lang= in the URL first, then the saved choice; Uzbek otherwise. */
 function initialLang(): Lang {
   try {
     const fromUrl = new URLSearchParams(window.location.search).get('lang')

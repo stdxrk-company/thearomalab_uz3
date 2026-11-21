@@ -91,7 +91,7 @@
  },
  "dior-sauvage-parfum": {
   "ru": "Мандарин и сандал на тёплой ванили и ладане. Самый мягкий и плотный из линейки Sauvage.",
-  "uz": "Mandarin va sandal iliq vanil va ladan ustida. Sauvage qatorining eng yumshoq va quyuq versiyasi.",
+  "uz": "Mandarin va sandal iliq vanil va kundur ustida. Sauvage qatorining eng yumshoq va quyuq versiyasi.",
   "en": "Mandarin and sandalwood over warm vanilla and incense. The smoothest, densest Sauvage."
  },
  "lacoste-essential-sport": {
@@ -266,7 +266,7 @@
  },
  "essential-parfums-bois-imperial": {
   "ru": "Базилик и чёрный перец на ветивере и акигалавуде. Современный «зелёно-древесный» аромат на любой случай.",
-  "uz": "Rayhon va qora qalampir vetiver va akigalavud ustida. Har qanday holat uchun zamonaviy yashil-yogʻochli atir.",
+  "uz": "Rayhon va qora murch vetiver va akigalavud ustida. Har qanday holat uchun zamonaviy yashil-yogʻochli atir.",
   "en": "Basil and black pepper over vetiver and akigalawood. A modern green-woody scent for any occasion."
  },
  "giorgio-armani-stronger-with-you-parfum": {
@@ -306,7 +306,7 @@
  },
  "le-labo-gaiac-10": {
   "ru": "Гваяковое дерево, кедр и ладан. Тихий, «чистый» древесный аромат, который держится на коже весь день.",
-  "uz": "Gvayak daraxti, kedr va ladan. Kun boʻyi terida saqlanadigan sokin, toza yogʻochli atir.",
+  "uz": "Gvayak daraxti, kedr va kundur. Kun boʻyi terida saqlanadigan sokin, toza yogʻochli atir.",
   "en": "Guaiac wood, cedar and incense. A quiet, clean woody scent that stays on skin all day."
  },
  "le-labo-the-noir-29": {
@@ -331,7 +331,7 @@
  },
  "bvlgari-le-gemme-onekh": {
   "ru": "Кардамон, ладан и мирра на сандале и амбре. Смолистый, благородный восточный аромат.",
-  "uz": "Kardamon, ladan va mirra sandal va ambra ustida. Smolali, olijanob sharqona atir.",
+  "uz": "Kardamon, kundur va mirra sandal va ambra ustida. Smolali, olijanob sharqona atir.",
   "en": "Cardamom, incense and myrrh over sandalwood and amber. A resinous, noble oriental."
  },
  "clive-christian-x-masculine": {
@@ -396,7 +396,7 @@
  },
  "le-labo-rose-31": {
   "ru": "Роза с тмином, ладаном и удом. Необычная «мужская» роза — пряная и древесная.",
-  "uz": "Zira, ladan va ud bilan atirgul. Gʻayrioddiy «erkakcha» atirgul — ziravorli va yogʻochli.",
+  "uz": "Zira, kundur va ud bilan atirgul. Gʻayrioddiy «erkakcha» atirgul — ziravorli va yogʻochli.",
   "en": "Rose with cumin, incense and oud. An unusual masculine rose, spicy and woody."
  },
  "bond-no-9-greenwich-village": {
@@ -431,7 +431,7 @@
  },
  "nasomatto-black-afgano": {
   "ru": "Каннабис, уд, ладан и кофе. Тёмный, густой и смолистый — один из самых плотных нишевых ароматов.",
-  "uz": "Kannabis, ud, ladan va qahva. Qorongʻi, quyuq va smolali — eng quyuq nisha atirlaridan biri.",
+  "uz": "Kannabis, ud, kundur va qahva. Qorongʻi, quyuq va smolali — eng quyuq nisha atirlaridan biri.",
   "en": "Cannabis, oud, incense and coffee. Dark, dense and resinous, one of the heaviest niche scents."
  },
  "tom-ford-ombre-leather-parfum": {
@@ -456,7 +456,7 @@
  },
  "tiziana-terenzi-gumin": {
   "ru": "Цитрусы и жасмин на мирре, ладане и сандале. Смолистый, тёплый и обволакивающий.",
-  "uz": "Sitruslar va yasmin mirra, ladan va sandal ustida. Smolali, iliq va oʻrab oluvchi.",
+  "uz": "Sitruslar va yasmin mirra, kundur va sandal ustida. Smolali, iliq va oʻrab oluvchi.",
   "en": "Citrus and jasmine over myrrh, incense and sandalwood. Resinous, warm and enveloping."
  },
  "byredo-mojave-ghost": {
@@ -631,7 +631,7 @@
  },
  "amouage-guidance": {
   "ru": "Груша и ладан с розой и османтусом на ванили и сандале. Сливочный, светящийся и роскошный.",
-  "uz": "Nok va ladan atirgul va osmantus bilan vanil va sandal ustida. Qaymoqsimon, yorqin va hashamatli.",
+  "uz": "Nok va kundur atirgul va osmantus bilan vanil va sandal ustida. Qaymoqsimon, yorqin va hashamatli.",
   "en": "Pear and incense with rose and osmanthus over vanilla and sandalwood. Creamy, glowing and luxurious."
  },
  "roja-parfums-oceania": {
@@ -661,7 +661,7 @@
  },
  "byredo-marijuana": {
   "ru": "Каннабис и ветивер с ладаном на кедре. Зелёный, дымный и расслабленный.",
-  "uz": "Kannabis va vetiver ladan bilan kedr ustida. Yashil, tutunli va xotirjam.",
+  "uz": "Kannabis va vetiver kundur bilan kedr ustida. Yashil, tutunli va xotirjam.",
   "en": "Cannabis and vetiver with incense over cedar. Green, smoky and laid-back."
  },
  "marc-antoine-barrois-tilia": {
@@ -676,7 +676,7 @@
  },
  "sospiro-vibrato": {
   "ru": "Апельсин и кардамон на ванили, амбре и ладане. Тёплый, сладкий и насыщенный.",
-  "uz": "Apelsin va kardamon vanil, ambra va ladan ustida. Iliq, shirin va toʻyingan.",
+  "uz": "Apelsin va kardamon vanil, ambra va kundur ustida. Iliq, shirin va toʻyingan.",
   "en": "Orange and cardamom over vanilla, amber and incense. Warm, sweet and rich."
  },
  "ormonde-jayne-montabaco": {
@@ -706,7 +706,7 @@
  },
  "sospiro-deep-ocean-amber": {
   "ru": "Лайм и морские ноты с ладаном на амбре и ванили. Свежий сверху и тёплый в шлейфе.",
-  "uz": "Laym va dengiz notalari ladan bilan ambra va vanil ustida. Boshida tarovatli, izida iliq.",
+  "uz": "Laym va dengiz notalari kundur bilan ambra va vanil ustida. Boshida tarovatli, izida iliq.",
   "en": "Lime and marine notes with incense over amber and vanilla. Fresh up top, warm in the trail."
  },
  "kilian-love-don-t-be-shy": {
@@ -736,7 +736,7 @@
  },
  "byredo-gypsy-water-absolu": {
   "ru": "Бергамот и перец с ладаном и хвоей на ванили и сандале. Более глубокая и смолистая версия Gypsy Water.",
-  "uz": "Bergamot va qalampir ladan va ignalar bilan vanil va sandal ustida. Gypsy Water ning chuqurroq va smolaliroq versiyasi.",
+  "uz": "Bergamot va qalampir kundur va ignalar bilan vanil va sandal ustida. Gypsy Water ning chuqurroq va smolaliroq versiyasi.",
   "en": "Bergamot and pepper with incense and pine over vanilla and sandalwood. A deeper, more resinous Gypsy Water."
  },
  "louis-vuitton-fantasmagory": {
@@ -771,7 +771,7 @@
  },
  "yves-saint-laurent-babycat": {
   "ru": "Розовый перец и ладан с кофе и ванилью на пачули. Тёмный, сладкий и уютный.",
-  "uz": "Pushti qalampir va ladan qahva va vanil bilan pachuli ustida. Qorongʻi, shirin va shinam.",
+  "uz": "Pushti qalampir va kundur qahva va vanil bilan pachuli ustida. Qorongʻi, shirin va shinam.",
   "en": "Pink pepper and incense with coffee and vanilla over patchouli. Dark, sweet and cosy."
  },
  "jo-malone-oud-bergamot-cologne-intense": {
@@ -801,7 +801,7 @@
  },
  "amouage-opus-xvi-timber": {
   "ru": "Кардамон и розовый перец с кедром и ладаном на уде и ветивере. Сухой, древесный и благородный.",
-  "uz": "Kardamon va pushti qalampir kedr va ladan bilan ud va vetiver ustida. Quruq, yogʻochli va olijanob.",
+  "uz": "Kardamon va pushti qalampir kedr va kundur bilan ud va vetiver ustida. Quruq, yogʻochli va olijanob.",
   "en": "Cardamom and pink pepper with cedar and incense over oud and vetiver. Dry, woody and noble."
  },
  "amouage-sequence": {
@@ -846,7 +846,7 @@
  },
  "amouage-epic-man": {
   "ru": "Перец и лайм с ладаном и ирисом на уде, коже и сандале. Восточный, глубокий и величественный.",
-  "uz": "Qalampir va laym ladan va iris bilan ud, teri va sandal ustida. Sharqona, chuqur va ulugʻvor.",
+  "uz": "Qalampir va laym kundur va iris bilan ud, teri va sandal ustida. Sharqona, chuqur va ulugʻvor.",
   "en": "Pepper and lime with incense and iris over oud, leather and sandalwood. Oriental, deep and majestic."
  },
  "parfums-de-marly-carios": {
@@ -891,7 +891,7 @@
  },
  "clive-christian-matsukita": {
   "ru": "Лайм и чёрный перец с жасмином и розой на сандале и уде. Роскошный, яркий и стойкий.",
-  "uz": "Laym va qora qalampir yasmin va atirgul bilan sandal va ud ustida. Hashamatli, yorqin va bardoshli.",
+  "uz": "Laym va qora murch yasmin va atirgul bilan sandal va ud ustida. Hashamatli, yorqin va bardoshli.",
   "en": "Lime and black pepper with jasmine and rose over sandalwood and oud. Luxurious, vivid and lasting."
  },
  "clive-christian-town-country": {
@@ -931,7 +931,7 @@
  },
  "louis-vuitton-ombre-nomade": {
   "ru": "Чёрный перец, ладан и уд с розой на ванили и амбре. Глубокий, смолистый и очень стойкий восточный аромат.",
-  "uz": "Qora qalampir, ladan va ud atirgul bilan vanil va ambra ustida. Chuqur, smolali va juda bardoshli sharqona atir.",
+  "uz": "Qora murch, kundur va ud atirgul bilan vanil va ambra ustida. Chuqur, smolali va juda bardoshli sharqona atir.",
   "en": "Black pepper, incense and oud with rose over vanilla and amber. A deep, resinous and very long-lasting oriental."
  },
  "louis-vuitton-ambre-levant": {

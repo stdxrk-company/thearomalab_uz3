@@ -9,7 +9,7 @@ export const LANGS: { code: Lang; short: string; name: string }[] = [
   { code: 'en', short: 'EN', name: 'English' },
 ]
 
-export const DEFAULT_LANG: Lang = 'ru'
+export const DEFAULT_LANG: Lang = 'uz'
 
 export function isLang(v: unknown): v is Lang {
   return v === 'ru' || v === 'uz' || v === 'en'
