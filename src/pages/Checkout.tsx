@@ -5,6 +5,7 @@ import { CHECKOUT, DELIVERY } from '../config'
 import { useI18n } from '../i18n'
 import type { Dict } from '../i18n/dicts'
 import { buildCheckoutMessage, copyText, newOrderNo, saveOrder, telegramLink, type Customer, type OrderSnapshot } from '../lib/order'
+import { editUzPhone, isValidUzPhone, UZ_PREFIX } from '../lib/phone'
 import { useTitle } from '../lib/useTitle'
 import { useCart } from '../store/cart'
 import s from './Checkout.module.css'
@@ -14,7 +15,7 @@ type Errors = Partial<Record<ErrorKey, boolean>>
 
 const EMPTY: Customer = {
   name: '',
-  phone: '+998 ',
+  phone: UZ_PREFIX,
   contact: 'telegram',
   delivery: 'tashkent',
   district: '',
@@ -29,7 +30,7 @@ const EMPTY: Customer = {
 function validate(c: Customer): Errors {
   const e: Errors = {}
   if (c.name.trim().length < 2) e.name = true
-  if (c.phone.replace(/\D/g, '').length < 9) e.phone = true
+  if (!isValidUzPhone(c.phone)) e.phone = true
   if (c.delivery === 'tashkent' && !c.district) e.district = true
   if (c.delivery === 'region' && c.city.trim().length < 2) e.city = true
   if (c.address.trim().length < 4) e.address = true
@@ -142,8 +143,14 @@ export function CheckoutPage() {
                   type="tel"
                   inputMode="tel"
                   autoComplete="tel"
+                  placeholder="+998 90 123 45 67"
                   value={c.phone}
-                  onChange={(e) => set('phone', e.target.value)}
+                  onChange={(e) => {
+                    const el = e.target
+                    const next = editUzPhone(el.value, el.selectionStart ?? el.value.length)
+                    set('phone', next.value)
+                    requestAnimationFrame(() => el.setSelectionRange(next.caret, next.caret))
+                  }}
                   aria-invalid={!!errors.phone}
                   aria-describedby={errors.phone ? 'err-phone' : undefined}
                 />
