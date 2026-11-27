@@ -11,7 +11,7 @@ export const en: Dict = {
   quote: (s: string) => `“${s}”`,
 
   meta: {
-    title: 'The Aroma Lab — original perfume decants | Tashkent',
+    title: 'The Aroma Lab — perfume made with Swiss oils | Tashkent',
   },
 
   gender: { men: 'Men', women: 'Women', unisex: 'Unisex' },
@@ -34,12 +34,12 @@ export const en: Dict = {
     language: 'Language',
     menu: 'Menu',
     closeMenu: 'Close menu',
-    announce: (n: number) => `Free delivery in Tashkent from ${n} bottles · Original perfume, decanted`,
+    announce: (n: number) => `Free delivery in Tashkent from ${n} bottles · Perfume made with Swiss oils`,
     announceShort: (n: number) => `Free delivery from ${n} bottles`,
   },
 
   footer: {
-    about: 'Original perfume in decants. Tashkent, with delivery across Uzbekistan.',
+    about: 'Perfume made with Swiss oils. Tashkent, with delivery across Uzbekistan.',
     catalog: 'Catalog',
     all: 'All fragrances',
     buyers: 'Customers',
@@ -135,7 +135,7 @@ export const en: Dict = {
     faq: (freeFrom: number) => [
       {
         q: 'What is a decant?',
-        a: 'It’s an original fragrance poured from a full-size bottle into a 10 ml atomizer. You can wear a scent for weeks and build a collection of several without buying expensive full bottles.',
+        a: 'It’s a fragrance in a small, handy atomizer. It lasts for weeks, fits in a pocket or bag, and costs far less than a full-size bottle. You can try many different scents and build your own collection without paying for full bottles.',
       },
       {
         q: 'How do I place an order?',
@@ -192,7 +192,7 @@ export const en: Dict = {
     mayLike: 'You may also like',
     crumbs: 'Breadcrumbs',
     back: '← Catalog',
-    imgAlt: (name: string) => `${name} — original perfume decant`,
+    imgAlt: (name: string) => `${name} — perfume decant`,
     inStock: 'In stock',
     outOfStock: 'Out of stock',
     pyramid: 'Fragrance pyramid',
@@ -209,7 +209,7 @@ export const en: Dict = {
     checkout: 'Checkout',
     cart: 'Cart',
     decant: (ml: number) => `${ml} ml decant`,
-    decantSub: 'original, from a full-size bottle',
+    decantSub: 'made with Swiss perfume oils',
     deliveryTashkent: 'Delivery in Tashkent',
     deliverySub: (n: number) => `Yandex · free from ${n} bottles`,
     otherCities: 'Other cities',

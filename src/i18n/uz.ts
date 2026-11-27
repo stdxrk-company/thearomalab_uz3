@@ -12,7 +12,7 @@ export const uz: Dict = {
   quote: (s: string) => `«${s}»`,
 
   meta: {
-    title: 'The Aroma Lab — original atirlar quyma holda | Toshkent',
+    title: 'The Aroma Lab — Shveytsariya moylaridagi atirlar | Toshkent',
   },
 
   gender: { men: 'Erkaklar uchun', women: 'Ayollar uchun', unisex: 'Uniseks' },
@@ -35,12 +35,12 @@ export const uz: Dict = {
     language: 'Til',
     menu: 'Menyu',
     closeMenu: 'Menyuni yopish',
-    announce: (n: number) => `Toshkent boʻylab ${n} ta flakondan bepul yetkazib berish · Original atirlar quyma shaklda`,
+    announce: (n: number) => `Toshkent boʻylab ${n} ta flakondan bepul yetkazib berish · Shveytsariya moylari asosidagi atirlar`,
     announceShort: (n: number) => `${n} ta flakondan bepul yetkazib berish`,
   },
 
   footer: {
-    about: 'Original atirlar quyma holda. Toshkent va butun Oʻzbekiston boʻylab yetkazib berish.',
+    about: 'Shveytsariya moylari asosidagi atirlar. Toshkent va butun Oʻzbekiston boʻylab yetkazib berish.',
     catalog: 'Katalog',
     all: 'Barcha atirlar',
     buyers: 'Xaridorlarga',
@@ -136,7 +136,7 @@ export const uz: Dict = {
     faq: (freeFrom: number) => [
       {
         q: 'Quyma atir nima?',
-        a: 'Bu katta flakondan 10 ml li atomayzerga quyilgan original atir. Shunday qilib, atirni bir necha hafta ishlatib koʻrish va qimmat katta flakonlarni sotib olmasdan bir nechta atirdan kolleksiya yigʻish mumkin.',
+        a: 'Bu kichik va qulay atomayzer-flakondagi atir. U bir necha haftaga yetadi, choʻntak yoki sumkaga sigʻadi va katta flakondan ancha arzon. Shunday qilib, koʻplab turli atirlarni sinab koʻrish va katta flakonlarga pul sarflamasdan oʻz kolleksiyangizni yigʻish mumkin.',
       },
       {
         q: 'Qanday buyurtma beriladi?',
@@ -193,7 +193,7 @@ export const uz: Dict = {
     mayLike: 'Sizga yoqishi mumkin',
     crumbs: 'Navigatsiya',
     back: '← Katalog',
-    imgAlt: (name: string) => `${name} — original quyma atir`,
+    imgAlt: (name: string) => `${name} — quyma atir`,
     inStock: 'Mavjud',
     outOfStock: 'Mavjud emas',
     pyramid: 'Atir piramidasi',
@@ -210,7 +210,7 @@ export const uz: Dict = {
     checkout: 'Buyurtma berish',
     cart: 'Savat',
     decant: (ml: number) => `Quyma ${ml} ml`,
-    decantSub: 'katta flakondan original',
+    decantSub: 'Shveytsariya moylari asosida',
     deliveryTashkent: 'Toshkent boʻylab yetkazib berish',
     deliverySub: (n: number) => `Yandex · ${n} ta flakondan bepul`,
     otherCities: 'Boshqa shaharlarga',

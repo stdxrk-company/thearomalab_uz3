@@ -39,9 +39,9 @@ export const MERCH = {
     en: 'The art of scent',
   } satisfies Localized,
   heroText: {
-    ru: 'Оригинальная парфюмерия мировых домов во флаконах по 10 мл',
-    uz: 'Dunyo parfyumeriya uylarining original atirlari 10 ml flakonlarda',
-    en: 'Original perfume from the great houses, in 10 ml bottles',
+    ru: 'Звучание известных ароматов на основе швейцарских масел, во флаконах по 10 мл',
+    uz: 'Mashhur atirlarning ifori Shveytsariya moylari asosida, 10 ml flakonlarda',
+    en: 'Famous scents made with Swiss oils, in 10 ml bottles',
   } satisfies Localized,
   /** Full-width photo behind the title on phones and tablets (desktop shows the three panels). */
   heroId: 'maison-francis-kurkdjian-baccarat-rouge-540',

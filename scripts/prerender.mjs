@@ -45,8 +45,8 @@ function write(route, html) {
 
 // Uzbek, the site's default language — these texts show in link previews and before the app loads.
 const home = {
-  title: 'The Aroma Lab — original atirlar quyma holda | Toshkent',
-  description: 'Dunyo parfyumeriya uylarining original atirlari 10 ml quyma holda. Toshkent va butun Oʻzbekiston boʻylab yetkazib berish.',
+  title: 'The Aroma Lab — Shveytsariya moylaridagi atirlar | Toshkent',
+  description: 'Shveytsariya parfyumeriya moylari asosidagi atirlar, 10 ml flakonlarda. Toshkent va butun Oʻzbekiston boʻylab yetkazib berish.',
   image: '/logo.webp',
 }
 
